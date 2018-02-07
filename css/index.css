@@ -1,0 +1,65 @@
+body{
+	background-color: black;
+	color: white;
+	font-family: 'Share Tech Mono', monospace;
+}
+
+.weather-box{
+	margin: 5% auto auto auto;
+	width: 1000px;
+	//background-color: white;
+	padding: 20px 50px 20px 50px;
+	border-radius: 3px;
+	text-align: center;
+	display: none;
+}
+
+.location{
+	
+}
+
+.map-marker{
+	font-size: 0.5em;
+	margin-bottom: 10px;
+}
+
+#answer{
+	display: none;
+}
+
+#main-icon{
+	font-size: 5.0em;
+	display: none;
+	margin: 10px;
+}
+
+.icons{
+	display: none;
+}
+
+.units{
+	font-size: 0.5em;
+}
+
+header{
+	text-align: right;
+	font-size: 0.8em;
+	color: grey;
+	margin: 20px;
+}
+
+header a{
+	color: grey;
+}
+
+header a:visited{
+	color: grey;
+}
+
+header a:hover{
+	color: white;
+}
+
+
+
+
