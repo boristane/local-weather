@@ -9,65 +9,79 @@ $("document").ready(function(){
 	if(navigator.geolocation){
 		navigator.geolocation.getCurrentPosition(function(location){
 	
-		var UI = {
-			answerElt: $("#answer"),
-			mainIconElt: $("#main-icon"),
-			locationElt: $("#location"),
-			windDirectionElt: $("#wind-direction"),
-			beaufortElt: $("#beaufort"),
-			temperatureElt: $("#temperature"),
-			pressureElt: $("#pressure"),
-			humidityElt: $("#humidity"),
-			weatherBox: $(".weather-box"),
-			divs: [$("#wind-div"), $("#temp-div"), $("#pressure-div"), $("#humidity-div")]
-		}
-		
-		var callURL = api + location.coords.latitude + "&lon=" + location.coords.longitude;
-
-		$.getJSON(callURL, function(data){
-			
-			UI.weatherBox.fadeIn(2000);
-			
-			UI.answerElt.text(data.weather[0].description);
-			UI.locationElt.text(" " + data.name + ", " + data.sys.country);
-			if(d.getHours() < 18 && d.getHours() > 6){
-				UI.mainIconElt.addClass(iconDayClass[data.weather[0].main.toLowerCase()]);
-			}else{
-				UI.mainIconElt.addClass(iconNightClass[data.weather[0].main.toLowerCase()]);
+			var UI = {
+				answerElt: $("#answer"),
+				mainIconElt: $("#main-icon"),
+				locationElt: $("#location"),
+				windDirectionElt: $("#wind-direction"),
+				beaufortElt: $("#beaufort"),
+				temperatureElt: $("#temperature"),
+				pressureElt: $("#pressure"),
+				humidityElt: $("#humidity"),
+				weatherBox: $(".weather-box"),
+				divs: [$("#wind-div"), $("#temp-div"), $("#pressure-div"), $("#humidity-div")],
+				iconsBox: $(".icons-box"),
+				tempConversionBtn: $(".conversion")
 			}
 			
-			
-			UI.windDirectionElt.addClass("towards-" + rotateWindDirection(data.wind.deg) + "-deg");
-			UI.beaufortElt.addClass("wi-wind-beaufort-" + speedToBeaufort(data.wind.speed));
-			UI.temperatureElt.text(" " + Math.floor(data.main.temp));
-			UI.pressureElt.text(" " + Math.floor(data.main.pressure))
-			UI.humidityElt.text(" " + Math.floor(data.main.humidity))
-			
-			console.log(UI.divs[0]);
-			
-			setTimeout(function(){
-				UI.answerElt.fadeIn(1000);
-				setTimeout(function(){
-					UI.mainIconElt.fadeIn(1000);
-					setTimeout(function(){
-						UI.divs[0].fadeIn(1000);
-						setTimeout(function(){
-							UI.divs[1].fadeIn(1000);
-							setTimeout(function(){
-								UI.divs[2].fadeIn(1000);
-								setTimeout(function(){
-									UI.divs[3].fadeIn(1000);
-								}, 1000);
-							}, 1000);
-						}, 1000);
-					}, 1000);
-				}, 1000);
+			var callURL = api + location.coords.latitude + "&lon=" + location.coords.longitude;
+
+			$.getJSON(callURL, function(data){
 				
-			},2000);
-		});
-		
-		
-			
+				UI.weatherBox.fadeIn(2000);
+				
+				UI.answerElt.text(data.weather[0].description);
+				UI.locationElt.text(" " + data.name + ", " + data.sys.country);
+				if(d.getHours() < 18 && d.getHours() > 6){
+					UI.mainIconElt.addClass(iconDayClass[data.weather[0].main.toLowerCase()]);
+				}else{
+					UI.mainIconElt.addClass(iconNightClass[data.weather[0].main.toLowerCase()]);
+				}
+				
+				
+				UI.windDirectionElt.addClass("towards-" + rotateWindDirection(data.wind.deg) + "-deg");
+				UI.beaufortElt.addClass("wi-wind-beaufort-" + speedToBeaufort(data.wind.speed));
+				UI.temperatureElt.text(" " + Math.floor(data.main.temp));
+				UI.pressureElt.text(" " + Math.floor(data.main.pressure));
+				UI.humidityElt.text(" " + Math.floor(data.main.humidity));
+				
+				var toggle = "c";
+				UI.tempConversionBtn.click(function(e){
+					e.preventDefault();
+					var temp;
+					if(toggle === "c"){
+						toggle="f";
+						temp = data.main.temp;
+						UI.tempConversionBtn.addClass("wi-celsius");
+						UI.tempConversionBtn.removeClass("wi-fahrenheit");
+					}else{
+						toggle="c";
+						temp = celcius2fahrenheit(data.main.temp);
+						UI.tempConversionBtn.addClass("wi-fahrenheit");
+						UI.tempConversionBtn.removeClass("wi-celsius");
+					}
+					UI.temperatureElt.text(" " + Math.floor(temp));
+				});
+				
+				setTimeout(function(){
+					UI.answerElt.fadeIn(1000);
+					setTimeout(function(){
+						UI.mainIconElt.fadeIn(1000);
+					}, 1000);
+
+					setTimeout(function(){
+						UI.iconsBox.fadeIn(1000);
+					}, 2000);
+
+					var i = 3;
+					UI.divs.forEach(function(elt){
+						setTimeout(function(){
+							elt.fadeIn(1000);
+						}, i*1000);
+						i++;
+					});
+				},2000);
+			});
 			
 		});
 	}
@@ -110,5 +124,13 @@ function speedToBeaufort(speed){
 function rotateWindDirection(direction){
 	if(direction <= 180) return direction + 180;
 	return direction - 180;
+}
+
+function celcius2fahrenheit(celcius){
+	return 1.8*celcius + 32;
+}
+
+function fahrenheit2celcius(fahrenheit){
+	return (fahrenheit - 32)/1.8;
 }
 

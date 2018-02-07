@@ -7,15 +7,15 @@ body{
 .weather-box{
 	margin: 5% auto auto auto;
 	width: 1000px;
-	//background-color: white;
 	padding: 20px 50px 20px 50px;
 	border-radius: 3px;
 	text-align: center;
 	display: none;
 }
 
-.location{
-	
+.conversion:hover{
+	color: #4885ed;
+	cursor: pointer;
 }
 
 .map-marker{
@@ -31,6 +31,15 @@ body{
 	font-size: 5.0em;
 	display: none;
 	margin: 10px;
+}
+
+.icons-box{
+	border-style: solid none none none;
+    border-width: 1px;
+	border-color: #4885ed;
+	margin-top: 40px;
+	padding-top: 10px;
+	display: none;
 }
 
 .icons{
