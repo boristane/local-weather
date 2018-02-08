@@ -13,8 +13,12 @@ body{
 	display: none;
 }
 
-.conversion:hover{
+.conversion{
 	color: #4885ed;
+}
+
+.conversion:hover{
+	color: #3cba54;
 	cursor: pointer;
 }
 

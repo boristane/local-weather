@@ -45,7 +45,7 @@ $("document").ready(function(){
 				UI.pressureElt.text(" " + Math.floor(data.main.pressure));
 				UI.humidityElt.text(" " + Math.floor(data.main.humidity));
 				
-				var toggle = "c";
+				var toggle = "f";
 				UI.tempConversionBtn.click(function(e){
 					e.preventDefault();
 					var temp;
@@ -70,14 +70,14 @@ $("document").ready(function(){
 					}, 1000);
 
 					setTimeout(function(){
-						UI.iconsBox.fadeIn(1000);
-					}, 2000);
+						UI.iconsBox.fadeIn(600);
+					}, 1800);
 
 					var i = 3;
 					UI.divs.forEach(function(elt){
 						setTimeout(function(){
-							elt.fadeIn(1000);
-						}, i*1000);
+							elt.fadeIn(800, "linear");
+						}, i*800);
 						i++;
 					});
 				},2000);
