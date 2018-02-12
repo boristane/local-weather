@@ -73,6 +73,13 @@ header a:hover{
 	color: white;
 }
 
+@media screen and (max-width: 900px) {
+	.weather-box{
+		width: 100%;
+		margin: 0;
+	}
+}
+
 
 
 
