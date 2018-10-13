@@ -6,6 +6,8 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons.min.css" integrity="sha256-KcCcakqMaamBrTFaxb9tkrP2iq1X8vUnsm86W8pRcgI=" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons-wind.min.css" integrity="sha256-huyMLXBzKbUp+a2DHlEUmuJSmc2SQZiu/jbpELjYGSE=" crossorigin="anonymous" />
   <title>Weather</title>
   <script src="src/index.js"></script>
 </head>
@@ -18,7 +20,22 @@
       </form>
     </fieldset>
     <div>
-      <p id="message"></p>
+      
+      <div class="row">
+        <div class="icon">
+          <h3><i class="wi wi-wind" id="wind-direction"></i>  <i class="wi" id="beaufort"></i></h3>
+        </div>
+        <div class="icon">
+          <h3><i class="wi wi-thermometer"></i><span id="temperature"></span><i class="wi wi-celsius"></i></h3>
+        </div>
+        <div class="icon">
+          <h3><i class="wi wi-barometer"></i><span id="pressure"></span><span class="unit">Pa</span></h3>
+        </div>
+        <div class="icon">
+          <h3><i class="wi wi-humidity"></i><span id="humidity"></span><span class="unit">%</span></h3>
+        </div>
+      </div>
+
     </div>
   </div>
 </body>
