@@ -21,22 +21,19 @@ function postData(url = '', data = {}) {
 }
 
 document.addEventListener('DOMContentLoaded', () => {
-  // const d = new Date();
-  // if (navigator.geolocation) {
-  //  navigator.geolocation.getCurrentPosition((location) => {
-  //    console.log(location);
-
-  postData('/', { city: 'london' })
-    .then((res) => {
-      let text = '';
-      if (res.error) {
-        text = res.error;
-      } else {
-        text = `The temperature in ${res.data.name} is ${kelvin2Celcius(res.data.main.temp)} degrees.`;
-      }
-      document.getElementById('message').textContent = text;
-    })
-    .catch(error => console.error(error));
-  //  });
-  // }
+  document.querySelector('form').addEventListener('submit', (e) => {
+    e.preventDefault();
+    const city = e.target.city.value;
+    postData('/', { city })
+      .then((res) => {
+        let text = '';
+        if (res.error) {
+          text = res.error;
+        } else {
+          text = `The temperature in ${res.data.name} is ${kelvin2Celcius(res.data.main.temp).toFixed(2)} degrees.`;
+        }
+        document.getElementById('message').textContent = text;
+      })
+      .catch(error => console.error(error));
+  });
 });
