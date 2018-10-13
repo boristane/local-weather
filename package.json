@@ -20,6 +20,9 @@
   },
   "homepage": "https://github.com/boristane/local-weather#readme",
   "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
     "node-fetch": "^2.2.0",
     "request": "^2.88.0"
   },
