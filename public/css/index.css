@@ -73,6 +73,12 @@ p {
   grid-template-columns: auto auto auto auto;
   text-align: center;
   font-size: 35px;
+  transition: all 0.3s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+}
+
+#weather {
+  margin-top: -30px;
+  opacity: 0;
 }
 
 h3 span {
@@ -81,4 +87,16 @@ h3 span {
 
 .unit {
   font-size: 15px;
+}
+
+.hidden {
+  display: none;
+}
+
+.main {
+  min-width: 200px;
+  max-width: 100%;
+  margin: auto;
+  text-align: center;
+  font-size: 50px;
 }
