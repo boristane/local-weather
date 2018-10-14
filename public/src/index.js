@@ -43,13 +43,19 @@ function postData(url = '', data = {}) {
 document.addEventListener('DOMContentLoaded', () => {
   function populateUI(wind, direction, temp, pressure, humidity) {
     const beaufort = speedToBeaufort(wind);
-    $('beaufort').className = 'wi';
-    $('wind-direction').className = 'wi wi-wind';
-    $('beaufort').classList.add(`wi-wind-beaufort-${beaufort}`);
-    $('wind-direction').classList.add(`from-${direction}-deg`);
-    $('temperature').textContent = kelvin2Celcius(temp).toFixed(2);
-    $('pressure').textContent = pressure;
-    $('humidity').textContent = humidity;
+    $('weather').classList.remove('hidden');
+    $('weather').style.opacity = 0;
+    setTimeout(() => {
+      $('weather').style.opacity = 1;
+      $('beaufort').className = 'wi';
+      $('wind-direction').className = 'wi wi-wind';
+      $('beaufort').classList.add(`wi-wind-beaufort-${beaufort}`);
+      $('wind-direction').classList.add(`from-${direction}-deg`);
+      $('temperature').textContent = kelvin2Celcius(temp).toFixed(1);
+      $('pressure').textContent = pressure;
+      $('humidity').textContent = humidity;
+    }, 300);
+    $('message').classList.add('hidden');
   }
 
   document.querySelector('form').addEventListener('submit', (e) => {
@@ -59,6 +65,8 @@ document.addEventListener('DOMContentLoaded', () => {
       .then((res) => {
         if (res.error) {
           populateUI(0, 0, 0, 0, 0);
+          $('weather').classList.add('hidden');
+          $('message').classList.remove('hidden');
           return;
         }
         const data = res.data;
