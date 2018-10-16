@@ -15,8 +15,15 @@ app.get('/', (req, res) => {
 });
 
 app.post('/', (req, res) => {
+  let weatherURL;
+  if (req.body.city) {
+    weatherURL = `http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${weatherApiKey}`;
+  } else {
+    const { lat, lon } = req.body;
+    weatherURL = `http://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${weatherApiKey}`;
+  }
   const { city } = req.body;
-  const weatherURL = `http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${weatherApiKey}`;
+
   request(weatherURL, (err, response, body) => {
     res.setHeader('Content-Type', 'application/json');
     if (err) {
@@ -40,7 +47,7 @@ app.post('/', (req, res) => {
       const timeData = JSON.parse(timeBody);
       const time = 1000 * (timeData.timestamp);
       res.send(JSON.stringify({ data: { weatherData, time }, error: null }));
-      console.log(`${city} : ${weatherData.main.temp}`);
+      console.log(`${weatherData.name} : ${weatherData.main.temp}`);
     });
   });
 });

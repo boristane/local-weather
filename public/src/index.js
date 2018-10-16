@@ -30,9 +30,8 @@ function id2Icon(id, s) {
   if (id >= 600 && id <= 622) return `wi-${time}-snow`;
   if (id >= 700 && id <= 781) return `wi-${time}-fog`;
   if (id === 800) return time === 'day' ? 'wi-day-sunny' : 'wi-night-clear';
-  if (id === 801) return time === 'day' ? 'wi-day-sunny-overcast' : 'wi-night-partly-cloudy';
-  if (id === 802) return `wi-${time}-cloudy`;
-  if (id === 803) return `wi-${time}-cloudy`;
+  if (id >= 801 && id <= 802) return time === 'day' ? 'wi-day-sunny-overcast' : 'wi-night-partly-cloudy';
+  if (id >= 803) return `wi-${time}-cloudy`;
   return '';
 }
 
@@ -58,20 +57,27 @@ function postData(url = '', data = {}) {
 }
 
 document.addEventListener('DOMContentLoaded', () => {
-  function populateUI(wind = 0, direction = 0, temp = 273.15, pressure = 0, humidity = 0, description = '', id = 0, time = 0) {
-    const beaufort = speedToBeaufort(wind);
+  function populateUI(data, time = 0) {
+    const { speed, deg } = data.wind;
+    const {
+      temp,
+      pressure,
+      humidity,
+    } = data.main;
+    const { description, id } = data.weather[0];
+    const beaufort = speedToBeaufort(speed);
     $('weather').classList.remove('hidden');
     $('weather').style.opacity = 0;
     setTimeout(() => {
+      $('city-name').value = data.name;
       $('weather').style.opacity = 1;
-
       $('main-icon').className = 'wi';
       $('main-icon').classList.add(id2Icon(id, time));
       $('description').textContent = description;
       $('beaufort').className = 'wi';
       $('wind-direction').className = 'wi wi-wind';
       $('beaufort').classList.add(`wi-wind-beaufort-${beaufort}`);
-      $('wind-direction').classList.add(`from-${direction}-deg`);
+      $('wind-direction').classList.add(`from-${deg}-deg`);
       $('temperature').textContent = kelvin2Celcius(temp).toFixed(1);
       $('pressure').textContent = pressure;
       $('humidity').textContent = humidity;
@@ -79,22 +85,41 @@ document.addEventListener('DOMContentLoaded', () => {
     $('message').classList.add('hidden');
   }
 
+  function processResponse(res) {
+    if (res.error) {
+      $('weather').classList.add('hidden');
+      $('message').classList.remove('hidden');
+      return;
+    }
+    const data = res.data.weatherData;
+    const { time } = res.data;
+    populateUI(data, time);
+  }
+
+  function getLocation(cb) {
+    if (navigator.geolocation) {
+      navigator.geolocation.getCurrentPosition((location) => {
+        cb(location);
+      });
+    }
+  }
+
+  getLocation((location) => {
+    const lat = location.coords.latitude;
+    const lon = location.coords.longitude;
+    postData('/', { lat, lon })
+      .then((res) => {
+        processResponse(res);
+      })
+      .catch(error => console.error(error));
+  });
+
   document.querySelector('form').addEventListener('submit', (e) => {
     e.preventDefault();
     const city = e.target.city.value;
     postData('/', { city })
       .then((res) => {
-        if (res.error) {
-          populateUI();
-          $('weather').classList.add('hidden');
-          $('message').classList.remove('hidden');
-          return;
-        }
-        const data = res.data.weatherData;
-        const s = res.data.time;
-        populateUI(data.wind.speed, data.wind.deg,
-          data.main.temp, data.main.pressure, data.main.humidity,
-          data.weather[0].description, data.weather[0].id, s);
+        processResponse(res);
       })
       .catch(error => console.error(error));
   });
