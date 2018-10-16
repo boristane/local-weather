@@ -17,6 +17,7 @@ app.get('/', (req, res) => {
 app.post('/', (req, res) => {
   let weatherURL;
   if (req.body.city) {
+    const { city } = req.body;
     weatherURL = `http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${weatherApiKey}`;
   } else {
     const { lat, lon } = req.body;
