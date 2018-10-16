@@ -7,7 +7,8 @@ app.set('view engine', 'ejs');
 app.use(express.static('public'));
 app.use(bodyParser.json({ extended: true }));
 
-const apiKey = '9093d6ed156dabedd4cb52dd7e2d31a6';
+const weatherApiKey = '9093d6ed156dabedd4cb52dd7e2d31a6';
+const timeZoneApiKey = 'AS0Z5FLPB45G';
 
 app.get('/', (req, res) => {
   res.render('index');
@@ -15,20 +16,32 @@ app.get('/', (req, res) => {
 
 app.post('/', (req, res) => {
   const { city } = req.body;
-  const url = `http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}`;
-  request(url, (err, response, body) => {
+  const weatherURL = `http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${weatherApiKey}`;
+  request(weatherURL, (err, response, body) => {
     res.setHeader('Content-Type', 'application/json');
     if (err) {
       res.send(JSON.stringify({ data: null, error: 'Error, please try again' }));
       return;
     }
-    const data = JSON.parse(body);
-    if (!data.main) {
+    const weatherData = JSON.parse(body);
+    if (!weatherData.main) {
       res.send(JSON.stringify({ data: null, error: 'Error, please try again' }));
       return;
     }
-    res.send(JSON.stringify({ data, error: null }));
-    console.log(`${city} : ${data.main.temp}`);
+
+    const cityLat = weatherData.coord.lat;
+    const cityLon = weatherData.coord.lon;
+    const timeZoneURL = `http://api.timezonedb.com/v2.1/get-time-zone?key=${timeZoneApiKey}&format=json&by=position&lat=${cityLat}&lng=${cityLon}`;
+    request(timeZoneURL, (timeErr, timeResponse, timeBody) => {
+      if (timeErr) {
+        res.send(JSON.stringify({ data: null, error: 'Error, please try again' }));
+        return;
+      }
+      const timeData = JSON.parse(timeBody);
+      const time = 1000 * (timeData.timestamp);
+      res.send(JSON.stringify({ data: { weatherData, time }, error: null }));
+      console.log(`${city} : ${weatherData.main.temp}`);
+    });
   });
 });
 
