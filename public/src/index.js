@@ -20,8 +20,8 @@ function speedToBeaufort(speed) {
 }
 
 function id2Icon(id, s) {
-  // TODO: only gives local time
-  const hr = (new Date(s)).getHours();
+  // TODO: potential error on summer time.
+  const hr = (new Date(s)).getUTCHours();
   const time = (hr >= 6 && hr <= 18) ? 'day' : 'night';
 
   if (id >= 200 && id <= 232) return `wi-${time}-thunderstorm`;
@@ -90,11 +90,11 @@ document.addEventListener('DOMContentLoaded', () => {
           $('message').classList.remove('hidden');
           return;
         }
-        const data = res.data;
-        console.log(data);
+        const data = res.data.weatherData;
+        const s = res.data.time;
         populateUI(data.wind.speed, data.wind.deg,
           data.main.temp, data.main.pressure, data.main.humidity,
-          data.weather[0].description, data.weather[0].id, data.dt);
+          data.weather[0].description, data.weather[0].id, s);
       })
       .catch(error => console.error(error));
   });
