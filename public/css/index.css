@@ -2,6 +2,7 @@ body {
   width: 800px;
   margin: 0 auto;
   font-family: 'Open Sans', sans-serif;
+  color: rgb(75, 75, 75);
 }
 .container {
   width: 600px;
@@ -64,6 +65,7 @@ fieldset {
 .ghost-button:hover {
   border:2px solid #515151;
 }
+
 p {
   color: #E64A19;
 }
@@ -103,4 +105,16 @@ h3 span {
 
 .spaced {
   padding: 0 15px;
+}
+
+.actionable {
+  color: #1991A3
+}
+
+.actionable:hover {
+  color: #E64A19;
+}
+
+.pointer {
+  cursor: pointer;
 }
