@@ -1,7 +1,7 @@
 body {
-  width: 800px;
   margin: 0 auto;
   font-family: 'Open Sans', sans-serif;
+  min-width: -webkit-min-content;
   color: rgb(75, 75, 75);
 }
 .container {
@@ -96,11 +96,35 @@ h3 span {
 }
 
 .main {
-  min-width: 200px;
   max-width: 100%;
   margin: auto;
   text-align: center;
   font-size: 50px;
+}
+
+.spaced-right {
+  padding-right: 15px;
+}
+
+@media (max-width: 1023px) and (min-width: 768px) {
+  .row {
+    grid-template-columns: auto auto
+  }
+}
+
+@media (max-width: 767px) {
+  .container {
+    width: 100%;
+  }
+
+  .icon {
+    width: 50%;
+    margin: auto;
+  }
+
+  .row {
+    display: inherit;
+  }
 }
 
 .spaced {
