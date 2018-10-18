@@ -3,6 +3,14 @@ function kelvin2Celcius(k) {
   return k - 273.15;
 }
 
+function celcius2fahrenheit(c) {
+  return (c * 9 / 5) + 32;
+}
+
+function fahrenheit2celcius(f) {
+  return (f - 32) * 5 / 9;
+}
+
 function speedToBeaufort(speed) {
   if (speed < 0.45) return 0;
   if (speed < 1.55) return 1;
@@ -36,7 +44,7 @@ function id2Icon(id, s) {
 }
 
 function $(s) {
-  return document.getElementById(s);
+  return document.getElementById(s) || document.querySelector(s);
 }
 
 function postData(url = '', data = {}) {
@@ -112,6 +120,22 @@ document.addEventListener('DOMContentLoaded', () => {
         processResponse(res);
       })
       .catch(error => console.error(error));
+  });
+
+  $('temp-conversion').addEventListener('click', (e) => {
+    if (e.target.classList.contains('wi-celsius')) {
+      const c = parseInt($('temperature').textContent, 10);
+      const f = celcius2fahrenheit(c);
+      $('temperature').textContent = f.toFixed(1);
+      e.target.classList.add('wi-fahrenheit');
+      e.target.classList.remove('wi-celsius');
+    } else {
+      const f = parseInt($('temperature').textContent, 10);
+      const c = fahrenheit2celcius(f);
+      $('temperature').textContent = c.toFixed(1);
+      e.target.classList.add('wi-celsius');
+      e.target.classList.remove('wi-fahrenheit');
+    }
   });
 
   document.querySelector('form').addEventListener('submit', (e) => {
