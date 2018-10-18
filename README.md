@@ -8,5 +8,11 @@ Web page displaying local meteorological data.
 ## Install
 
 ```bash
+npm i
+```
+
+## Run
+
+```bash
 node server.js
 ```
