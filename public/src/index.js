@@ -112,14 +112,17 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }
 
-  getLocation((location) => {
-    const lat = location.coords.latitude;
-    const lon = location.coords.longitude;
-    postData('/', { lat, lon })
-      .then((res) => {
-        processResponse(res);
-      })
-      .catch(error => console.error(error));
+  $('location').addEventListener('click', (e) => {
+    e.preventDefault();
+    getLocation((location) => {
+      const lat = location.coords.latitude;
+      const lon = location.coords.longitude;
+      postData('/', { lat, lon })
+        .then((res) => {
+          processResponse(res);
+        })
+        .catch(error => console.error(error));
+    });
   });
 
   $('temp-conversion').addEventListener('click', (e) => {
@@ -140,6 +143,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   document.querySelector('form').addEventListener('submit', (e) => {
     e.preventDefault();
+    console.log('submit');
     const city = e.target.city.value;
     postData('/', { city })
       .then((res) => {

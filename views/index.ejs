@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="css/index.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons.min.css" integrity="sha256-KcCcakqMaamBrTFaxb9tkrP2iq1X8vUnsm86W8pRcgI=" crossorigin="anonymous" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons-wind.min.css" integrity="sha256-huyMLXBzKbUp+a2DHlEUmuJSmc2SQZiu/jbpELjYGSE=" crossorigin="anonymous" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <title>Weather</title>
   <script src="src/index.js"></script>
 </head>
@@ -15,7 +16,12 @@
   <div class="container">
     <fieldset>
       <form action="" method="">
-        <input class="ghost-input" type="text" name="city" placeholder="Enter a city" id="city-name" required>
+        <div class="row two">
+          <div style="width: 64px; box-sizing: border-box; margin-right: 5px;">
+            <button class="ghost-button" id="location" type="button"><i class="material-icons">place</i></button>
+          </div>
+          <input class="ghost-input" type="text" name="city" placeholder="&#x2B05 click here" id="city-name" required>
+        </div>
         <input type="submit" class="ghost-button" value="Go !">
       </form>
     </fieldset>

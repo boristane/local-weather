@@ -33,14 +33,17 @@ fieldset {
   border:0px;
   outline: none;
   width: 100%;
+
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+
   color: #4b545f;
   background: #fff;
   font-family: Open Sans,Verdana;
   padding: 10px 15px;
-  margin: 30px 0px;
+  border-bottom:1px solid #ddd;
+
   -webkit-transition: all 0.1s ease-in-out;
   -moz-transition: all 0.1s ease-in-out;
   -ms-transition: all 0.1s ease-in-out;
@@ -53,9 +56,10 @@ fieldset {
 .ghost-button {
   background-color: transparent;
   border:2px solid #ddd;
-  padding:10px 30px;
+  padding: 10px 0px;
   width: 100%;
-  min-width: 350px;
+  color: grey;
+
   -webkit-transition: all 0.1s ease-in-out;
   -moz-transition: all 0.1s ease-in-out;
   -ms-transition: all 0.1s ease-in-out;
@@ -64,6 +68,11 @@ fieldset {
 }
 .ghost-button:hover {
   border:2px solid #515151;
+  color: black;
+}
+
+.ghost-input:focus {
+  border-bottom:2px solid #515151;
 }
 
 p {
@@ -76,6 +85,11 @@ p {
   text-align: center;
   font-size: 35px;
   transition: all 0.3s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+  margin: 15px 0px;
+}
+
+.row.two {
+  grid-template-columns: fit-content(300px) auto;
 }
 
 #weather {
@@ -106,6 +120,18 @@ h3 span {
   padding-right: 15px;
 }
 
+.actionable {
+  color: #1991A3
+}
+
+.actionable:hover {
+  color: #E64A19;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
 @media (max-width: 1023px) and (min-width: 768px) {
   .row {
     grid-template-columns: auto auto
@@ -125,20 +151,9 @@ h3 span {
   .row {
     display: inherit;
   }
+
+  .row.two {
+    display: grid;
+  }
 }
 
-.spaced {
-  padding: 0 15px;
-}
-
-.actionable {
-  color: #1991A3
-}
-
-.actionable:hover {
-  color: #E64A19;
-}
-
-.pointer {
-  cursor: pointer;
-}
