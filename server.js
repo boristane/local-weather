@@ -23,7 +23,6 @@ app.post('/', (req, res) => {
     const { lat, lon } = req.body;
     weatherURL = `http://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${weatherApiKey}`;
   }
-  const { city } = req.body;
 
   request(weatherURL, (err, response, body) => {
     res.setHeader('Content-Type', 'application/json');
