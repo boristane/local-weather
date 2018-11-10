@@ -143,7 +143,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
   document.querySelector('form').addEventListener('submit', (e) => {
     e.preventDefault();
-    console.log('submit');
     const city = e.target.city.value;
     postData('/', { city })
       .then((res) => {
