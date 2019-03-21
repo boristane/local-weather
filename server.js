@@ -9,8 +9,10 @@ const app = express();
 app.use((req, res, next) => {
   // can change the star to allow access only from certain url
   res.header('Access-Control-Allow-Origin', '*');
-  res.header('Access-Control-Allow-Headers',
-    'Origin, X-Requested-With, Content-Type, Accept, Authorization');
+  res.header(
+    'Access-Control-Allow-Headers',
+    'Origin, X-Requested-With, Content-Type, Accept, Authorization'
+  );
   if (req.method === 'OPTIONS') {
     res.header('Access-Control-Allow-Methods', 'PUT, POST, PATCH, DELETE, GET');
     return res.status(200).json({});
@@ -18,12 +20,13 @@ app.use((req, res, next) => {
   return next();
 });
 
+app.set('views', `${__dirname}/views`);
 app.set('view engine', 'ejs');
-app.use(express.static('public'));
+app.use(express.static(`${__dirname}/public`));
 app.use(bodyParser.json({ extended: true }));
 
 app.get('/', (req, res) => {
-  res.render('index');
+  res.render('index.ejs');
 });
 
 app.post('/', weatherControler.post);
