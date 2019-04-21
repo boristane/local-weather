@@ -1,36 +1,35 @@
-
 function kelvin2Celcius(k) {
   return k - 273.15;
 }
 
 function celcius2fahrenheit(c) {
-  return (c * 9 / 5) + 32;
+  return (c * 9) / 5 + 32;
 }
 
 function fahrenheit2celcius(f) {
-  return (f - 32) * 5 / 9;
+  return ((f - 32) * 5) / 9;
 }
 
 function speedToBeaufort(speed) {
   if (speed < 0.45) return 0;
   if (speed < 1.55) return 1;
   if (speed < 3.35) return 2;
-  if (speed < 5.60) return 3;
+  if (speed < 5.6) return 3;
   if (speed < 8.25) return 4;
   if (speed < 10.95) return 5;
-  if (speed < 14.10) return 6;
-  if (speed < 17.20) return 7;
-  if (speed < 20.80) return 8;
+  if (speed < 14.1) return 6;
+  if (speed < 17.2) return 7;
+  if (speed < 20.8) return 8;
   if (speed < 24.35) return 9;
-  if (speed < 28.40) return 10;
-  if (speed < 32.40) return 11;
+  if (speed < 28.4) return 10;
+  if (speed < 32.4) return 11;
   return 12;
 }
 
 function id2Icon(id, s) {
   // TODO: potential error on summer time.
-  const hr = (new Date(s)).getUTCHours();
-  const time = (hr >= 6 && hr <= 18) ? 'day' : 'night';
+  const hr = new Date(s).getUTCHours();
+  const time = hr >= 6 && hr <= 18 ? 'day' : 'night';
 
   if (id >= 200 && id <= 232) return `wi-${time}-thunderstorm`;
   if (id >= 300 && id <= 321) return `wi-${time}-showers`;
@@ -38,7 +37,9 @@ function id2Icon(id, s) {
   if (id >= 600 && id <= 622) return `wi-${time}-snow`;
   if (id >= 700 && id <= 781) return `wi-${time}-fog`;
   if (id === 800) return time === 'day' ? 'wi-day-sunny' : 'wi-night-clear';
-  if (id >= 801 && id <= 802) return time === 'day' ? 'wi-day-sunny-overcast' : 'wi-night-partly-cloudy';
+  if (id >= 801 && id <= 802) {
+    return time === 'day' ? 'wi-day-sunny-overcast' : 'wi-night-partly-cloudy';
+  }
   if (id >= 803) return `wi-${time}-cloudy`;
   return '';
 }
@@ -55,23 +56,17 @@ function postData(url = '', data = {}) {
     credentials: 'same-origin',
     headers: {
       'Content-Type': 'application/json; charset=utf-8',
-      // 'Content-Type': 'application/x-www-form-urlencoded',
     },
     redirect: 'follow',
     referrer: 'no-referrer',
     body: JSON.stringify(data),
-  })
-    .then(response => response.json());
+  }).then((response) => response.json());
 }
 
 document.addEventListener('DOMContentLoaded', () => {
   function populateUI(data, time = 0) {
     const { speed, deg } = data.wind;
-    const {
-      temp,
-      pressure,
-      humidity,
-    } = data.main;
+    const { temp, pressure, humidity } = data.main;
     const { description, id } = data.weather[0];
     const beaufort = speedToBeaufort(speed);
     $('weather').classList.remove('hidden');
@@ -121,7 +116,7 @@ document.addEventListener('DOMContentLoaded', () => {
         .then((res) => {
           processResponse(res);
         })
-        .catch(error => console.error(error));
+        .catch((error) => console.error(error));
     });
   });
 
@@ -148,6 +143,6 @@ document.addEventListener('DOMContentLoaded', () => {
       .then((res) => {
         processResponse(res);
       })
-      .catch(error => console.error(error));
+      .catch((error) => console.error(error));
   });
 });

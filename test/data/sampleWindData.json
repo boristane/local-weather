@@ -1,0 +1,3396 @@
+[
+  {
+    "i": "3002",
+    "lat": "60.749",
+    "lon": "-0.854",
+    "name": "BALTASOUND",
+    "country": "SCOTLAND",
+    "continent": "EUROPE",
+    "elevation": "15.0",
+    "Period": {
+      "type": "Day",
+      "value": "2019-04-21Z",
+      "Rep": {
+        "D": "SSE",
+        "H": "95.3",
+        "P": "1017",
+        "S": "11",
+        "T": "8.6",
+        "V": "30000",
+        "W": "8",
+        "Pt": "F",
+        "Dp": "7.9",
+        "$": "540"
+      }
+    }
+  },
+  {
+    "i": "3005",
+    "lat": "60.139",
+    "lon": "-1.183",
+    "name": "LERWICK (S. SCREEN)",
+    "country": "SCOTLAND",
+    "continent": "EUROPE",
+    "elevation": "82.0",
+    "Period": {
+      "type": "Day",
+      "value": "2019-04-21Z",
+      "Rep": {
+        "D": "SE",
+        "H": "98.7",
+        "P": "1017",
+        "S": "7",
+        "T": "7.7",
+        "V": "45000",
+        "W": "8",
+        "Pt": "F",
+        "Dp": "7.5",
+        "$": "540"
+      }
+    }
+  },
+  {
+    "i": "3008",
+    "lat": "59.527",
+    "lon": "-1.628",
+    "name": "FAIR ISLE",
+    "country": "SCOTLAND",
+    "continent": "EUROPE",
+    "elevation": "57.0",
+    "Period": {
+      "type": "Day",
+      "value": "2019-04-21Z",
+      "Rep": {
+        "D": "ESE",
+        "P": "1016",
+        "S": "5",
+        "T": "8.2",
+        "V": "3000",
+        "W": "5",
+        "Pt": "F",
+        "$": "540"
+      }
+    }
+  },
+  {
+    "i": "3017",
+    "lat": "58.954",
+    "lon": "-2.9",
+    "name": "KIRKWALL",
+    "country": "SCOTLAND",
+    "continent": "EUROPE",
+    "elevation": "26.0",
+    "Period": {
+      "type": "Day",
+      "value": "2019-04-21Z",
+      "Rep": {
+        "D": "S",
+        "H": "90.4",
+        "P": "1016",
+        "S": "5",
+        "T": "10.8",
+        "V": "12000",
+        "W": "8",
+        "Pt": "F",
+        "Dp": "9.3",
+        "$": "540"
+      }
+    }
+  },
+  {
+    "i": "3023",
+    "lat": "57.358",
+    "lon": "-7.397",
+    "name": "SOUTH UIST RANGE",
+    "country": "SCOTLAND",
+    "continent": "EUROPE",
+    "elevation": "4.0",
+    "Period": {
+      "type": "Day",
+      "value": "2019-04-21Z",
+      "Rep": {
+        "D": "S",
+        "G": "32",
+        "H": "98.7",
+        "P": "1014",
+        "S": "24",
+        "T": "10.5",
+        "V": "11000",
+        "W": "8",
+        "Pt": "F",
+        "Dp": "10.3",
+        "$": "540"
+      }
+    }
+  },
+  {
+    "i": "3026",
+    "lat": "58.214",
+    "lon": "-6.325",
+    "name": "STORNOWAY",
+    "country": "SCOTLAND",
+    "continent": "EUROPE",
+    "elevation": "15.0",
+    "Period": {
+      "type": "Day",
+      "value": "2019-04-21Z",
+      "Rep": {
+        "D": "SSE",
+        "H": "99.3",
+        "P": "1014",
+        "S": "10",
+        "T": "9.4",
+        "V": "12000",
+        "W": "8",
+        "Pt": "F",
+        "Dp": "9.3",
+        "$": "540"
+      }
+    }
+  },
+  {
+    "i": "3031",
+    "lat": "57.725",
+    "lon": "-4.896",
+    "name": "LOCH GLASCARNOCH",
+    "country": "SCOTLAND",
+    "continent": "EUROPE",
+    "elevation": "265.0",
+    "Period": {
+      "type": "Day",
+      "value": "2019-04-21Z",
+      "Rep": {
+        "D": "SW",
+        "H": "71.7",
+        "P": "1016",
+        "S": "11",
+        "T": "14.3",
+        "V": "45000",
+        "W": "7",
+        "Pt": "F",
+        "Dp": "9.3",
+        "$": "540"
+      }
+    }
+  },
+  {
+    "i": "3034",
+    "lat": "57.859",
+    "lon": "-5.636",
+    "name": "AULTBEA",
+    "country": "SCOTLAND",
+    "continent": "EUROPE",
+    "elevation": "11.0",
+    "Period": {
+      "type": "Day",
+      "value": "2019-04-21Z",
+      "Rep": {
+        "D": "SSE",
+        "H": "88.7",
+        "P": "1015",
+        "S": "7",
+        "T": "13.1",
+        "V": "45000",
+        "W": "8",
+        "Pt": "F",
+        "Dp": "11.3",
+        "$": "540"
+      }
+    }
+  },
+  {
+    "i": "3039",
+    "lat": "57.4175",
+    "lon": "-5.689",
+    "name": "BEALACH NA BA",
+    "country": "SCOTLAND",
+    "continent": "EUROPE",
+    "elevation": "773.0",
+    "Period": {
+      "type": "Day",
+      "value": "2019-04-21Z",
+      "Rep": {
+        "D": "SSE",
+        "G": "30",
+        "H": "100.0",
+        "S": "11",
+        "T": "7.7",
+        "Dp": "7.7",
+        "$": "540"
+      }
+    }
+  },
+  {
+    "i": "3044",
+    "lat": "58.288",
+    "lon": "-4.442",
+    "name": "ALTNAHARRA SAWS",
+    "country": "SCOTLAND",
+    "continent": "EUROPE",
+    "elevation": "81.0",
+    "Period": {
+      "type": "Day",
+      "value": "2019-04-21Z",
+      "Rep": {
+        "D": "W",
+        "H": "92.9",
+        "P": "1016",
+        "S": "5",
+        "T": "11.7",
+        "V": "18000",
+        "W": "8",
+        "Pt": "F",
+        "Dp": "10.6",
+        "$": "540"
+      }
+    }
+  },
+  {
+    "i": "3047",
+    "lat": "56.867",
+    "lon": "-4.708",
+    "name": "TULLOCH BRIDGE",
+    "country": "SCOTLAND",
+    "continent": "EUROPE",
+    "elevation": "237.0",
+    "Period": {
+      "type": "Day",
+      "value": "2019-04-21Z",
+      "Rep": {
+        "D": "S",
+        "H": "76.6",
+        "P": "1018",
+        "S": "8",
+        "T": "13.9",
+        "V": "12000",
+        "W": "7",
+        "Pt": "F",
+        "Dp": "9.9",
+        "$": "540"
+      }
+    }
+  },
+  {
+    "i": "3063",
+    "lat": "57.206",
+    "lon": "-3.827",
+    "name": "AVIEMORE",
+    "country": "SCOTLAND",
+    "continent": "EUROPE",
+    "elevation": "228.0",
+    "Period": {
+      "type": "Day",
+      "value": "2019-04-21Z",
+      "Rep": {
+        "D": "S",
+        "H": "72.3",
+        "P": "1016",
+        "S": "7",
+        "T": "15.0",
+        "V": "13000",
+        "W": "3",
+        "Pt": "F",
+        "Dp": "10.1",
+        "$": "540"
+      }
+    }
+  },
+  {
+    "i": "3065",
+    "lat": "57.116",
+    "lon": "-3.642",
+    "name": "CAIRN GORM SUMMIT",
+    "country": "SCOTLAND",
+    "continent": "EUROPE",
+    "elevation": "1245.0",
+    "Period": {
+      "type": "Day",
+      "value": "2019-04-21Z",
+      "Rep": {
+        "D": "SW",
+        "G": "53",
+        "H": "72.2",
+        "S": "37",
+        "T": "8.3",
+        "Dp": "3.6",
+        "$": "540"
+      }
+    }
+  },
+  {
+    "i": "3066",
+    "lat": "57.6494",
+    "lon": "-3.5606",
+    "name": "KINLOSS",
+    "country": "SCOTLAND",
+    "continent": "EUROPE",
+    "elevation": "7.0",
+    "Period": {
+      "type": "Day",
+      "value": "2019-04-21Z",
+      "Rep": {
+        "D": "E",
+        "H": "95.4",
+        "P": "1016",
+        "S": "2",
+        "T": "12.2",
+        "V": "7000",
+        "W": "5",
+        "Pt": "F",
+        "Dp": "11.5",
+        "$": "540"
+      }
+    }
+  },
+  {
+    "i": "3068",
+    "lat": "57.712",
+    "lon": "-3.322",
+    "name": "LOSSIEMOUTH",
+    "country": "SCOTLAND",
+    "continent": "EUROPE",
+    "elevation": "6.0",
+    "Period": {
+      "type": "Day",
+      "value": "2019-04-21Z",
+      "Rep": {
+        "D": "E",
+        "H": "92.9",
+        "P": "1016",
+        "S": "3",
+        "T": "11.8",
+        "V": "7000",
+        "W": "7",
+        "Pt": "F",
+        "Dp": "10.7",
+        "$": "540"
+      }
+    }
+  },
+  {
+    "i": "3075",
+    "lat": "58.454",
+    "lon": "-3.089",
+    "name": "WICK JOHN O GROATS AIRPORT",
+    "country": "SCOTLAND",
+    "continent": "EUROPE",
+    "elevation": "36.0",
+    "Period": {
+      "type": "Day",
+      "value": "2019-04-21Z",
+      "Rep": {
+        "D": "E",
+        "H": "89.8",
+        "P": "1016",
+        "S": "7",
+        "T": "11.4",
+        "V": "8000",
+        "W": "8",
+        "Pt": "F",
+        "Dp": "9.8",
+        "$": "540"
+      }
+    }
+  },
+  {
+    "i": "3080",
+    "lat": "57.077",
+    "lon": "-2.836",
+    "name": "ABOYNE",
+    "country": "SCOTLAND",
+    "continent": "EUROPE",
+    "elevation": "140.0",
+    "Period": {
+      "type": "Day",
+      "value": "2019-04-21Z",
+      "Rep": {
+        "D": "W",
+        "H": "55.5",
+        "P": "1016",
+        "S": "5",
+        "T": "18.5",
+        "V": "28000",
+        "W": "1",
+        "Pt": "F",
+        "Dp": "9.5",
+        "$": "540"
+      }
+    }
+  },
+  {
+    "i": "3088",
+    "lat": "56.852",
+    "lon": "-2.264",
+    "name": "INVERBERVIE",
+    "country": "SCOTLAND",
+    "continent": "EUROPE",
+    "elevation": "134.0",
+    "Period": {
+      "type": "Day",
+      "value": "2019-04-21Z",
+      "Rep": {
+        "D": "SSW",
+        "H": "85.6",
+        "P": "1018",
+        "S": "11",
+        "T": "10.9",
+        "V": "5000",
+        "W": "1",
+        "Pt": "F",
+        "Dp": "8.6",
+        "$": "540"
+      }
+    }
+  },
+  {
+    "i": "3091",
+    "lat": "57.206",
+    "lon": "-2.202",
+    "name": "ABERDEEN AIRPORT",
+    "country": "SCOTLAND",
+    "continent": "EUROPE",
+    "elevation": "65.0",
+    "Period": {
+      "type": "Day",
+      "value": "2019-04-21Z",
+      "Rep": {
+        "D": "SSE",
+        "H": "63.7",
+        "P": "1017",
+        "S": "8",
+        "T": "17.6",
+        "V": "17000",
+        "W": "3",
+        "Pt": "F",
+        "Dp": "10.7",
+        "$": "540"
+      }
+    }
+  },
+  {
+    "i": "3105",
+    "lat": "55.681",
+    "lon": "-6.256",
+    "name": "ISLAY AIRPORT",
+    "country": "SCOTLAND",
+    "continent": "EUROPE",
+    "elevation": "17.0",
+    "Period": {
+      "type": "Day",
+      "value": "2019-04-21Z",
+      "Rep": {
+        "D": "SE",
+        "H": "78.8",
+        "P": "1017",
+        "S": "15",
+        "T": "14.1",
+        "V": "6000",
+        "W": "7",
+        "Pt": "F",
+        "Dp": "10.5",
+        "$": "540"
+      }
+    }
+  },
+  {
+    "i": "3111",
+    "lat": "55.441",
+    "lon": "-5.699",
+    "name": "CAMPBELTOWN AIRPORT",
+    "country": "SCOTLAND",
+    "continent": "EUROPE",
+    "elevation": "10.0",
+    "Period": {
+      "type": "Day",
+      "value": "2019-04-21Z",
+      "Rep": {
+        "D": "SE",
+        "H": "76.6",
+        "P": "1018",
+        "S": "14",
+        "T": "13.8",
+        "V": "6000",
+        "W": "1",
+        "Pt": "F",
+        "Dp": "9.8",
+        "$": "540"
+      }
+    }
+  },
+  {
+    "i": "3132",
+    "lat": "54.859",
+    "lon": "-4.936",
+    "name": "WEST FREUGH",
+    "country": "SCOTLAND",
+    "continent": "EUROPE",
+    "elevation": "11.0",
+    "Period": {
+      "type": "Day",
+      "value": "2019-04-21Z",
+      "Rep": {
+        "D": "ESE",
+        "H": "76.3",
+        "P": "1019",
+        "S": "13",
+        "T": "12.5",
+        "V": "8000",
+        "W": "1",
+        "Pt": "F",
+        "Dp": "8.5",
+        "$": "540"
+      }
+    }
+  },
+  {
+    "i": "3134",
+    "lat": "55.907",
+    "lon": "-4.533",
+    "name": "GLASGOW/BISHOPTON",
+    "country": "SCOTLAND",
+    "continent": "EUROPE",
+    "elevation": "59.0",
+    "Period": {
+      "type": "Day",
+      "value": "2019-04-21Z",
+      "Rep": {
+        "D": "SE",
+        "H": "64.3",
+        "P": "1018",
+        "S": "5",
+        "T": "14.8",
+        "V": "9000",
+        "W": "1",
+        "Pt": "F",
+        "Dp": "8.2",
+        "$": "540"
+      }
+    }
+  },
+  {
+    "i": "3136",
+    "lat": "55.515",
+    "lon": "-4.585",
+    "name": "PRESTWICK RNAS",
+    "country": "SCOTLAND",
+    "continent": "EUROPE",
+    "elevation": "27.0",
+    "Period": {
+      "type": "Day",
+      "value": "2019-04-21Z",
+      "Rep": {
+        "D": "SSE",
+        "H": "59.6",
+        "P": "1018",
+        "S": "3",
+        "T": "16.6",
+        "V": "17000",
+        "W": "1",
+        "Pt": "F",
+        "Dp": "8.8",
+        "$": "540"
+      }
+    }
+  },
+  {
+    "i": "3144",
+    "lat": "56.326",
+    "lon": "-3.729",
+    "name": "STRATHALLAN",
+    "country": "SCOTLAND",
+    "continent": "EUROPE",
+    "elevation": "35.0",
+    "Period": {
+      "type": "Day",
+      "value": "2019-04-21Z",
+      "Rep": {
+        "D": "SW",
+        "H": "57.4",
+        "P": "1018",
+        "S": "8",
+        "T": "15.8",
+        "V": "15000",
+        "W": "1",
+        "Pt": "F",
+        "Dp": "7.5",
+        "$": "540"
+      }
+    }
+  },
+  {
+    "i": "3148",
+    "lat": "56.423",
+    "lon": "-4.32",
+    "name": "GLEN OGLE",
+    "country": "SCOTLAND",
+    "continent": "EUROPE",
+    "elevation": "564.0",
+    "Period": {
+      "type": "Day",
+      "value": "2019-04-21Z",
+      "Rep": {
+        "D": "S",
+        "H": "72.2",
+        "S": "15",
+        "T": "11.1",
+        "Dp": "6.3",
+        "$": "540"
+      }
+    }
+  },
+  {
+    "i": "3155",
+    "lat": "55.627",
+    "lon": "-3.735",
+    "name": "DRUMALBIN",
+    "country": "SCOTLAND",
+    "continent": "EUROPE",
+    "elevation": "245.0",
+    "Period": {
+      "type": "Day",
+      "value": "2019-04-21Z",
+      "Rep": {
+        "D": "SW",
+        "H": "59.5",
+        "P": "1019",
+        "S": "14",
+        "T": "14.4",
+        "V": "12000",
+        "W": "1",
+        "Pt": "F",
+        "Dp": "6.7",
+        "$": "540"
+      }
+    }
+  },
+  {
+    "i": "3158",
+    "lat": "55.709",
+    "lon": "-2.383",
+    "name": "CHARTERHALL",
+    "country": "SCOTLAND",
+    "continent": "EUROPE",
+    "elevation": "112.0",
+    "Period": {
+      "type": "Day",
+      "value": "2019-04-21Z",
+      "Rep": {
+        "D": "SW",
+        "H": "58.3",
+        "P": "1019",
+        "S": "8",
+        "T": "16.1",
+        "V": "25000",
+        "W": "1",
+        "Pt": "F",
+        "Dp": "8.0",
+        "$": "540"
+      }
+    }
+  },
+  {
+    "i": "3162",
+    "lat": "55.311",
+    "lon": "-3.206",
+    "name": "ESKDALEMUIR",
+    "country": "SCOTLAND",
+    "continent": "EUROPE",
+    "elevation": "242.0",
+    "Period": {
+      "type": "Day",
+      "value": "2019-04-21Z",
+      "Rep": {
+        "D": "SSE",
+        "H": "68.5",
+        "P": "1020",
+        "S": "5",
+        "T": "13.6",
+        "V": "12000",
+        "W": "3",
+        "Pt": "F",
+        "Dp": "8.0",
+        "$": "540"
+      }
+    }
+  },
+  {
+    "i": "3166",
+    "lat": "55.928",
+    "lon": "-3.343",
+    "name": "EDINBURGH/GOGARBANK",
+    "country": "SCOTLAND",
+    "continent": "EUROPE",
+    "elevation": "57.0",
+    "Period": {
+      "type": "Day",
+      "value": "2019-04-21Z",
+      "Rep": {
+        "D": "WSW",
+        "H": "55.2",
+        "P": "1018",
+        "S": "8",
+        "T": "17.6",
+        "V": "13000",
+        "W": "1",
+        "Pt": "F",
+        "Dp": "8.6",
+        "$": "540"
+      }
+    }
+  },
+  {
+    "i": "3171",
+    "lat": "56.377",
+    "lon": "-2.862",
+    "name": "LEUCHARS",
+    "country": "SCOTLAND",
+    "continent": "EUROPE",
+    "elevation": "10.0",
+    "Period": {
+      "type": "Day",
+      "value": "2019-04-21Z",
+      "Rep": {
+        "D": "SW",
+        "H": "62.5",
+        "P": "1019",
+        "S": "1",
+        "T": "14.6",
+        "V": "11000",
+        "W": "3",
+        "Pt": "F",
+        "Dp": "7.6",
+        "$": "540"
+      }
+    }
+  },
+  {
+    "i": "3204",
+    "lat": "54.0849",
+    "lon": "-4.6321",
+    "name": "RONALDSWAY",
+    "country": "ISLE OF MAN",
+    "continent": "EUROPE",
+    "elevation": "16.0",
+    "Period": {
+      "type": "Day",
+      "value": "2019-04-21Z",
+      "Rep": {
+        "D": "ESE",
+        "H": "79.0",
+        "P": "1020",
+        "S": "3",
+        "T": "12.0",
+        "V": "9000",
+        "W": "7",
+        "Pt": "F",
+        "Dp": "8.5",
+        "$": "540"
+      }
+    }
+  },
+  {
+    "i": "3210",
+    "lat": "54.5181",
+    "lon": "-3.615",
+    "name": "ST. BEES HEAD",
+    "country": "ENGLAND",
+    "continent": "EUROPE",
+    "elevation": "124.0",
+    "Period": {
+      "type": "Day",
+      "value": "2019-04-21Z",
+      "Rep": {
+        "D": "S",
+        "H": "69.6",
+        "P": "1020",
+        "S": "15",
+        "T": "13.9",
+        "V": "11000",
+        "W": "1",
+        "Pt": "F",
+        "Dp": "8.5",
+        "$": "540"
+      }
+    }
+  },
+  {
+    "i": "3212",
+    "lat": "54.614",
+    "lon": "-3.157",
+    "name": "KESWICK",
+    "country": "ENGLAND",
+    "continent": "EUROPE",
+    "elevation": "81.0",
+    "Period": {
+      "type": "Day",
+      "value": "2019-04-21Z",
+      "Rep": {
+        "D": "ESE",
+        "H": "46.0",
+        "P": "1020",
+        "S": "5",
+        "T": "18.6",
+        "V": "15000",
+        "W": "1",
+        "Pt": "F",
+        "Dp": "6.9",
+        "$": "540"
+      }
+    }
+  },
+  {
+    "i": "3214",
+    "lat": "54.125",
+    "lon": "-3.257",
+    "name": "WALNEY ISLAND",
+    "country": "ENGLAND",
+    "continent": "EUROPE",
+    "elevation": "15.0",
+    "Period": {
+      "type": "Day",
+      "value": "2019-04-21Z",
+      "Rep": {
+        "D": "SE",
+        "H": "58.9",
+        "P": "1021",
+        "S": "7",
+        "T": "15.6",
+        "V": "18000",
+        "W": "1",
+        "Pt": "F",
+        "Dp": "7.7",
+        "$": "540"
+      }
+    }
+  },
+  {
+    "i": "3220",
+    "lat": "54.933",
+    "lon": "-2.963",
+    "name": "CARLISLE",
+    "country": "ENGLAND",
+    "continent": "EUROPE",
+    "elevation": "28.0",
+    "Period": {
+      "type": "Day",
+      "value": "2019-04-21Z",
+      "Rep": {
+        "H": "70.5",
+        "P": "1020",
+        "T": "13.9",
+        "V": "11000",
+        "W": "1",
+        "Pt": "F",
+        "Dp": "8.7",
+        "$": "540"
+      }
+    }
+  },
+  {
+    "i": "3224",
+    "lat": "55.05",
+    "lon": "-2.553",
+    "name": "SPADEADAM",
+    "country": "ENGLAND",
+    "continent": "EUROPE",
+    "elevation": "285.0",
+    "Period": {
+      "type": "Day",
+      "value": "2019-04-21Z",
+      "Rep": {
+        "D": "WSW",
+        "H": "52.1",
+        "P": "1020",
+        "S": "10",
+        "T": "16.0",
+        "V": "17000",
+        "W": "1",
+        "Pt": "F",
+        "Dp": "6.3",
+        "$": "540"
+      }
+    }
+  },
+  {
+    "i": "3225",
+    "lat": "54.501",
+    "lon": "-2.684",
+    "name": "SHAP",
+    "country": "ENGLAND",
+    "continent": "EUROPE",
+    "elevation": "255.0",
+    "Period": {
+      "type": "Day",
+      "value": "2019-04-21Z",
+      "Rep": {
+        "D": "SSW",
+        "H": "50.7",
+        "P": "1021",
+        "S": "11",
+        "T": "16.3",
+        "V": "18000",
+        "W": "1",
+        "Pt": "F",
+        "Dp": "6.2",
+        "$": "540"
+      }
+    }
+  },
+  {
+    "i": "3226",
+    "lat": "54.572",
+    "lon": "-2.413",
+    "name": "WARCOP",
+    "country": "ENGLAND",
+    "continent": "EUROPE",
+    "elevation": "227.0",
+    "Period": {
+      "type": "Day",
+      "value": "2019-04-21Z",
+      "Rep": {
+        "D": "SW",
+        "H": "56.1",
+        "P": "1020",
+        "S": "5",
+        "T": "16.8",
+        "V": "18000",
+        "W": "1",
+        "Pt": "F",
+        "Dp": "8.1",
+        "$": "540"
+      }
+    }
+  },
+  {
+    "i": "3227",
+    "lat": "54.684",
+    "lon": "-2.45",
+    "name": "GREAT DUN FELL 2",
+    "country": "ENGLAND",
+    "continent": "EUROPE",
+    "elevation": "847.0",
+    "Period": {
+      "type": "Day",
+      "value": "2019-04-21Z",
+      "Rep": {
+        "D": "SW",
+        "G": "30",
+        "H": "53.5",
+        "S": "24",
+        "T": "10.1",
+        "Dp": "1.1",
+        "$": "540"
+      }
+    }
+  },
+  {
+    "i": "3230",
+    "lat": "55.285",
+    "lon": "-2.279",
+    "name": "REDESDALE CAMP",
+    "country": "ENGLAND",
+    "continent": "EUROPE",
+    "elevation": "211.0",
+    "Period": {
+      "type": "Day",
+      "value": "2019-04-21Z",
+      "Rep": {
+        "D": "S",
+        "H": "48.6",
+        "P": "1020",
+        "S": "7",
+        "T": "18.6",
+        "V": "24000",
+        "W": "7",
+        "Pt": "F",
+        "Dp": "7.7",
+        "$": "540"
+      }
+    }
+  },
+  {
+    "i": "3238",
+    "lat": "55.02",
+    "lon": "-1.88",
+    "name": "ALBEMARLE",
+    "country": "ENGLAND",
+    "continent": "EUROPE",
+    "elevation": "146.0",
+    "Period": {
+      "type": "Day",
+      "value": "2019-04-21Z",
+      "Rep": {
+        "D": "W",
+        "H": "57.4",
+        "P": "1020",
+        "S": "2",
+        "T": "17.4",
+        "V": "13000",
+        "W": "1",
+        "Pt": "F",
+        "Dp": "9.0",
+        "$": "540"
+      }
+    }
+  },
+  {
+    "i": "3240",
+    "lat": "55.421",
+    "lon": "-1.6",
+    "name": "BOULMER",
+    "country": "ENGLAND",
+    "continent": "EUROPE",
+    "elevation": "23.0",
+    "Period": {
+      "type": "Day",
+      "value": "2019-04-21Z",
+      "Rep": {
+        "D": "SE",
+        "H": "72.6",
+        "P": "1020",
+        "S": "8",
+        "T": "14.5",
+        "V": "12000",
+        "W": "1",
+        "Pt": "F",
+        "Dp": "9.7",
+        "$": "540"
+      }
+    }
+  },
+  {
+    "i": "3257",
+    "lat": "54.296",
+    "lon": "-1.53",
+    "name": "LEEMING",
+    "country": "ENGLAND",
+    "continent": "EUROPE",
+    "elevation": "32.0",
+    "Period": {
+      "type": "Day",
+      "value": "2019-04-21Z",
+      "Rep": {
+        "D": "SE",
+        "H": "64.0",
+        "P": "1022",
+        "S": "9",
+        "T": "13.7",
+        "V": "9000",
+        "W": "1",
+        "Pt": "F",
+        "Dp": "7.1",
+        "$": "540"
+      }
+    }
+  },
+  {
+    "i": "3265",
+    "lat": "54.204",
+    "lon": "-1.39",
+    "name": "TOPCLIFFE",
+    "country": "ENGLAND",
+    "continent": "EUROPE",
+    "elevation": "25.0",
+    "Period": {
+      "type": "Day",
+      "value": "2019-04-21Z",
+      "Rep": {
+        "D": "SE",
+        "H": "64.6",
+        "P": "1022",
+        "S": "8",
+        "T": "14.2",
+        "V": "11000",
+        "W": "1",
+        "Pt": "F",
+        "Dp": "7.7",
+        "$": "540"
+      }
+    }
+  },
+  {
+    "i": "3266",
+    "lat": "54.045",
+    "lon": "-1.25",
+    "name": "LINTON ON OUSE",
+    "country": "ENGLAND",
+    "continent": "EUROPE",
+    "elevation": "14.0",
+    "Period": {
+      "type": "Day",
+      "value": "2019-04-21Z",
+      "Rep": {
+        "D": "SE",
+        "H": "66.3",
+        "P": "1022",
+        "S": "5",
+        "T": "13.9",
+        "V": "6000",
+        "W": "1",
+        "Pt": "F",
+        "Dp": "7.8",
+        "$": "540"
+      }
+    }
+  },
+  {
+    "i": "3275",
+    "lat": "54.563",
+    "lon": "-0.863",
+    "name": "LOFTUS (SAMOS)",
+    "country": "ENGLAND",
+    "continent": "EUROPE",
+    "elevation": "158.0",
+    "Period": {
+      "type": "Day",
+      "value": "2019-04-21Z",
+      "Rep": {
+        "D": "S",
+        "H": "46.3",
+        "P": "1021",
+        "S": "14",
+        "T": "17.8",
+        "V": "8000",
+        "W": "1",
+        "Pt": "F",
+        "Dp": "6.3",
+        "$": "540"
+      }
+    }
+  },
+  {
+    "i": "3281",
+    "lat": "54.362",
+    "lon": "-0.673",
+    "name": "FYLINGDALES",
+    "country": "ENGLAND",
+    "continent": "EUROPE",
+    "elevation": "262.0",
+    "Period": {
+      "type": "Day",
+      "value": "2019-04-21Z",
+      "Rep": {
+        "D": "SSW",
+        "H": "44.3",
+        "S": "13",
+        "T": "15.5",
+        "Dp": "3.4",
+        "$": "540"
+      }
+    }
+  },
+  {
+    "i": "3292",
+    "lat": "54.094",
+    "lon": "-0.174",
+    "name": "BRIDLINGTON MRSC",
+    "country": "ENGLAND",
+    "continent": "EUROPE",
+    "elevation": "15.0",
+    "Period": {
+      "type": "Day",
+      "value": "2019-04-21Z",
+      "Rep": {
+        "D": "S",
+        "H": "74.7",
+        "P": "1022",
+        "S": "3",
+        "T": "12.0",
+        "W": "1",
+        "Pt": "F",
+        "Dp": "7.7",
+        "$": "540"
+      }
+    }
+  },
+  {
+    "i": "3302",
+    "lat": "53.252",
+    "lon": "-4.537",
+    "name": "VALLEY",
+    "country": "WALES",
+    "continent": "EUROPE",
+    "elevation": "10.0",
+    "Period": {
+      "type": "Day",
+      "value": "2019-04-21Z",
+      "Rep": {
+        "D": "SSW",
+        "H": "75.5",
+        "P": "1021",
+        "S": "7",
+        "T": "13.3",
+        "V": "17000",
+        "W": "1",
+        "Pt": "F",
+        "Dp": "9.1",
+        "$": "540"
+      }
+    }
+  },
+  {
+    "i": "3305",
+    "lat": "53.093",
+    "lon": "-3.941",
+    "name": "CAPEL CURIG",
+    "country": "WALES",
+    "continent": "EUROPE",
+    "elevation": "216.0",
+    "Period": {
+      "type": "Day",
+      "value": "2019-04-21Z",
+      "Rep": {
+        "D": "WSW",
+        "H": "50.9",
+        "P": "1021",
+        "S": "11",
+        "T": "18.2",
+        "V": "21000",
+        "W": "1",
+        "Pt": "F",
+        "Dp": "8.0",
+        "$": "540"
+      }
+    }
+  },
+  {
+    "i": "3313",
+    "lat": "53.259",
+    "lon": "-3.509",
+    "name": "RHYL",
+    "country": "WALES",
+    "continent": "EUROPE",
+    "elevation": "77.0",
+    "Period": {
+      "type": "Day",
+      "value": "2019-04-21Z",
+      "Rep": {
+        "D": "ESE",
+        "H": "50.9",
+        "P": "1021",
+        "S": "5",
+        "T": "19.3",
+        "V": "22000",
+        "W": "1",
+        "Pt": "F",
+        "Dp": "9.0",
+        "$": "540"
+      }
+    }
+  },
+  {
+    "i": "3316",
+    "lat": "53.497",
+    "lon": "-3.056",
+    "name": "CROSBY",
+    "country": "ENGLAND",
+    "continent": "EUROPE",
+    "elevation": "9.0",
+    "Period": {
+      "type": "Day",
+      "value": "2019-04-21Z",
+      "Rep": {
+        "D": "S",
+        "H": "59.5",
+        "P": "1021",
+        "S": "8",
+        "T": "16.4",
+        "V": "11000",
+        "W": "1",
+        "Pt": "F",
+        "Dp": "8.6",
+        "$": "540"
+      }
+    }
+  },
+  {
+    "i": "3321",
+    "lat": "53.174",
+    "lon": "-2.986",
+    "name": "HAWARDEN",
+    "country": "WALES",
+    "continent": "EUROPE",
+    "elevation": "10.0",
+    "Period": {
+      "type": "Day",
+      "value": "2019-04-21Z",
+      "Rep": {
+        "D": "SSE",
+        "H": "63.4",
+        "P": "1021",
+        "S": "9",
+        "T": "15.0",
+        "V": "15000",
+        "W": "1",
+        "Pt": "F",
+        "Dp": "8.2",
+        "$": "540"
+      }
+    }
+  },
+  {
+    "i": "3330",
+    "lat": "53.12755",
+    "lon": "-1.97993",
+    "name": "LEEK",
+    "country": "ENGLAND",
+    "continent": "EUROPE",
+    "elevation": "298.0",
+    "Period": {
+      "type": "Day",
+      "value": "2019-04-21Z",
+      "Rep": {
+        "D": "S",
+        "H": "49.5",
+        "P": "1022",
+        "S": "10",
+        "T": "16.0",
+        "V": "21000",
+        "W": "1",
+        "Pt": "F",
+        "Dp": "5.6",
+        "$": "540"
+      }
+    }
+  },
+  {
+    "i": "3344",
+    "lat": "53.811",
+    "lon": "-1.865",
+    "name": "BINGLEY SAMOS",
+    "country": "ENGLAND",
+    "continent": "EUROPE",
+    "elevation": "262.0",
+    "Period": {
+      "type": "Day",
+      "value": "2019-04-21Z",
+      "Rep": {
+        "D": "SE",
+        "H": "47.3",
+        "P": "1021",
+        "S": "3",
+        "T": "17.7",
+        "V": "13000",
+        "W": "1",
+        "Pt": "F",
+        "Dp": "6.5",
+        "$": "540"
+      }
+    }
+  },
+  {
+    "i": "3351",
+    "lat": "53.3598",
+    "lon": "-2.3805",
+    "name": "ROSTHERNE NO 2",
+    "country": "ENGLAND",
+    "continent": "EUROPE",
+    "elevation": "35.0",
+    "Period": {
+      "type": "Day",
+      "value": "2019-04-21Z",
+      "Rep": {
+        "D": "S",
+        "H": "59.8",
+        "P": "1021",
+        "S": "6",
+        "T": "17.4",
+        "V": "13000",
+        "Pt": "F",
+        "Dp": "9.6",
+        "$": "540"
+      }
+    }
+  },
+  {
+    "i": "3354",
+    "lat": "53.005",
+    "lon": "-1.25",
+    "name": "WATNALL",
+    "country": "ENGLAND",
+    "continent": "EUROPE",
+    "elevation": "117.0",
+    "Period": {
+      "type": "Day",
+      "value": "2019-04-21Z",
+      "Rep": {
+        "D": "SSE",
+        "H": "45.7",
+        "P": "1022",
+        "S": "5",
+        "T": "17.8",
+        "V": "15000",
+        "W": "1",
+        "Pt": "F",
+        "Dp": "6.1",
+        "$": "540"
+      }
+    }
+  },
+  {
+    "i": "3373",
+    "lat": "53.307",
+    "lon": "-0.546",
+    "name": "SCAMPTON",
+    "country": "ENGLAND",
+    "continent": "EUROPE",
+    "elevation": "57.0",
+    "Period": {
+      "type": "Day",
+      "value": "2019-04-21Z",
+      "Rep": {
+        "D": "SE",
+        "H": "53.5",
+        "P": "1022",
+        "S": "7",
+        "T": "15.7",
+        "V": "14000",
+        "W": "1",
+        "Pt": "F",
+        "Dp": "6.4",
+        "$": "540"
+      }
+    }
+  },
+  {
+    "i": "3377",
+    "lat": "53.175",
+    "lon": "-0.521",
+    "name": "WADDINGTON",
+    "country": "ENGLAND",
+    "continent": "EUROPE",
+    "elevation": "68.0",
+    "Period": {
+      "type": "Day",
+      "value": "2019-04-21Z",
+      "Rep": {
+        "D": "SE",
+        "H": "52.3",
+        "P": "1023",
+        "S": "7",
+        "T": "15.7",
+        "V": "15000",
+        "W": "1",
+        "Pt": "F",
+        "Dp": "6.1",
+        "$": "540"
+      }
+    }
+  },
+  {
+    "i": "3379",
+    "lat": "53.031",
+    "lon": "-0.502",
+    "name": "CRANWELL",
+    "country": "ENGLAND",
+    "continent": "EUROPE",
+    "elevation": "62.0",
+    "Period": {
+      "type": "Day",
+      "value": "2019-04-21Z",
+      "Rep": {
+        "D": "ESE",
+        "H": "58.4",
+        "P": "1023",
+        "S": "7",
+        "T": "15.1",
+        "V": "11000",
+        "W": "1",
+        "Pt": "F",
+        "Dp": "7.1",
+        "$": "540"
+      }
+    }
+  },
+  {
+    "i": "3382",
+    "lat": "53.867",
+    "lon": "-0.433",
+    "name": "LECONFIELD SAR",
+    "country": "ENGLAND",
+    "continent": "EUROPE",
+    "elevation": "7.0",
+    "Period": {
+      "type": "Day",
+      "value": "2019-04-21Z",
+      "Rep": {
+        "D": "SE",
+        "H": "66.1",
+        "P": "1022",
+        "S": "3",
+        "T": "15.2",
+        "V": "10000",
+        "W": "1",
+        "Pt": "F",
+        "Dp": "9.0",
+        "$": "540"
+      }
+    }
+  },
+  {
+    "i": "3385",
+    "lat": "53.473",
+    "lon": "0.154",
+    "name": "DONNA NOOK",
+    "country": "ENGLAND",
+    "continent": "EUROPE",
+    "elevation": "8.0",
+    "Period": {
+      "type": "Day",
+      "value": "2019-04-21Z",
+      "Rep": {
+        "D": "ESE",
+        "H": "91.6",
+        "P": "1023",
+        "S": "6",
+        "T": "12.2",
+        "V": "12000",
+        "W": "1",
+        "Pt": "F",
+        "Dp": "10.9",
+        "$": "540"
+      }
+    }
+  },
+  {
+    "i": "3391",
+    "lat": "53.094",
+    "lon": "-0.171",
+    "name": "CONINGSBY",
+    "country": "ENGLAND",
+    "continent": "EUROPE",
+    "elevation": "6.0",
+    "Period": {
+      "type": "Day",
+      "value": "2019-04-21Z",
+      "Rep": {
+        "D": "ESE",
+        "H": "53.6",
+        "P": "1023",
+        "S": "6",
+        "T": "16.4",
+        "V": "15000",
+        "W": "1",
+        "Pt": "F",
+        "Dp": "7.1",
+        "$": "540"
+      }
+    }
+  },
+  {
+    "i": "3392",
+    "lat": "53.088",
+    "lon": "0.274",
+    "name": "WAINFLEET",
+    "country": "ENGLAND",
+    "continent": "EUROPE",
+    "elevation": "3.0",
+    "Period": {
+      "type": "Day",
+      "value": "2019-04-21Z",
+      "Rep": {
+        "D": "E",
+        "H": "66.8",
+        "P": "1023",
+        "S": "6",
+        "T": "14.4",
+        "V": "14000",
+        "W": "1",
+        "Pt": "F",
+        "Dp": "8.4",
+        "$": "540"
+      }
+    }
+  },
+  {
+    "i": "3405",
+    "lat": "52.789",
+    "lon": "-4.742",
+    "name": "ABERDARON",
+    "country": "WALES",
+    "continent": "EUROPE",
+    "elevation": "95.0",
+    "Period": {
+      "type": "Day",
+      "value": "2019-04-21Z",
+      "Rep": {
+        "D": "ESE",
+        "H": "80.9",
+        "P": "1022",
+        "S": "7",
+        "T": "11.1",
+        "V": "16000",
+        "W": "1",
+        "Pt": "F",
+        "Dp": "8.0",
+        "$": "540"
+      }
+    }
+  },
+  {
+    "i": "3410",
+    "lat": "52.757",
+    "lon": "-3.464",
+    "name": "LAKE VYRNWY SAWS",
+    "country": "WALES",
+    "continent": "EUROPE",
+    "elevation": "360.0",
+    "Period": {
+      "type": "Day",
+      "value": "2019-04-21Z",
+      "Rep": {
+        "D": "S",
+        "H": "49.4",
+        "P": "1021",
+        "S": "5",
+        "T": "16.5",
+        "V": "22000",
+        "W": "1",
+        "Pt": "F",
+        "Dp": "6.0",
+        "$": "540"
+      }
+    }
+  },
+  {
+    "i": "3414",
+    "lat": "52.794",
+    "lon": "-2.663",
+    "name": "SHAWBURY",
+    "country": "ENGLAND",
+    "continent": "EUROPE",
+    "elevation": "72.0",
+    "Period": {
+      "type": "Day",
+      "value": "2019-04-21Z",
+      "Rep": {
+        "D": "E",
+        "H": "68.3",
+        "P": "1022",
+        "S": "3",
+        "T": "14.5",
+        "V": "9000",
+        "W": "1",
+        "Pt": "F",
+        "Dp": "8.8",
+        "$": "540"
+      }
+    }
+  },
+  {
+    "i": "3462",
+    "lat": "52.6111",
+    "lon": "-0.459",
+    "name": "WITTERING",
+    "country": "ENGLAND",
+    "continent": "EUROPE",
+    "elevation": "73.0",
+    "Period": {
+      "type": "Day",
+      "value": "2019-04-21Z",
+      "Rep": {
+        "D": "NE",
+        "H": "60.7",
+        "P": "1022",
+        "S": "5",
+        "T": "14.3",
+        "V": "12000",
+        "W": "1",
+        "Pt": "F",
+        "Dp": "6.9",
+        "$": "540"
+      }
+    }
+  },
+  {
+    "i": "3469",
+    "lat": "52.873",
+    "lon": "0.141",
+    "name": "HOLBEACH",
+    "country": "ENGLAND",
+    "continent": "EUROPE",
+    "elevation": "3.0",
+    "Period": {
+      "type": "Day",
+      "value": "2019-04-21Z",
+      "Rep": {
+        "D": "NE",
+        "H": "83.0",
+        "P": "1023",
+        "S": "7",
+        "T": "13.1",
+        "V": "10000",
+        "W": "1",
+        "Pt": "F",
+        "Dp": "10.3",
+        "$": "540"
+      }
+    }
+  },
+  {
+    "i": "3482",
+    "lat": "52.651",
+    "lon": "0.569",
+    "name": "MARHAM",
+    "country": "ENGLAND",
+    "continent": "EUROPE",
+    "elevation": "21.0",
+    "Period": {
+      "type": "Day",
+      "value": "2019-04-21Z",
+      "Rep": {
+        "D": "E",
+        "H": "48.8",
+        "P": "1022",
+        "S": "7",
+        "T": "17.0",
+        "V": "13000",
+        "W": "1",
+        "Pt": "F",
+        "Dp": "6.3",
+        "$": "540"
+      }
+    }
+  },
+  {
+    "i": "3488",
+    "lat": "52.949",
+    "lon": "1.127",
+    "name": "WEYBOURNE",
+    "country": "ENGLAND",
+    "continent": "EUROPE",
+    "elevation": "21.0",
+    "Period": {
+      "type": "Day",
+      "value": "2019-04-21Z",
+      "Rep": {
+        "D": "E",
+        "H": "69.4",
+        "P": "1023",
+        "S": "8",
+        "T": "13.4",
+        "W": "1",
+        "Pt": "F",
+        "Dp": "8.0",
+        "$": "540"
+      }
+    }
+  },
+  {
+    "i": "3502",
+    "lat": "52.139",
+    "lon": "-4.571",
+    "name": "ABERPORTH",
+    "country": "WALES",
+    "continent": "EUROPE",
+    "elevation": "133.0",
+    "Period": {
+      "type": "Day",
+      "value": "2019-04-21Z",
+      "Rep": {
+        "D": "S",
+        "H": "59.7",
+        "P": "1021",
+        "S": "11",
+        "T": "16.8",
+        "V": "15000",
+        "W": "1",
+        "Pt": "F",
+        "Dp": "9.0",
+        "$": "540"
+      }
+    }
+  },
+  {
+    "i": "3503",
+    "lat": "52.344",
+    "lon": "-3.947",
+    "name": "TRAWSGOED",
+    "country": "WALES",
+    "continent": "EUROPE",
+    "elevation": "63.0",
+    "Period": {
+      "type": "Day",
+      "value": "2019-04-21Z",
+      "Rep": {
+        "D": "E",
+        "H": "59.2",
+        "P": "1021",
+        "S": "1",
+        "T": "18.1",
+        "V": "19000",
+        "W": "1",
+        "Pt": "F",
+        "Dp": "10.1",
+        "$": "540"
+      }
+    }
+  },
+  {
+    "i": "3507",
+    "lat": "52.063",
+    "lon": "-3.614",
+    "name": "SENNYBRIDGE",
+    "country": "WALES",
+    "continent": "EUROPE",
+    "elevation": "307.0",
+    "Period": {
+      "type": "Day",
+      "value": "2019-04-21Z",
+      "Rep": {
+        "D": "N",
+        "H": "62.3",
+        "P": "1022",
+        "S": "3",
+        "T": "14.2",
+        "V": "35000",
+        "W": "1",
+        "Pt": "F",
+        "Dp": "7.2",
+        "$": "540"
+      }
+    }
+  },
+  {
+    "i": "3520",
+    "lat": "52.242",
+    "lon": "-2.885",
+    "name": "SHOBDON SAWS",
+    "country": "ENGLAND",
+    "continent": "EUROPE",
+    "elevation": "99.0",
+    "Period": {
+      "type": "Day",
+      "value": "2019-04-21Z",
+      "Rep": {
+        "D": "ESE",
+        "H": "65.1",
+        "P": "1022",
+        "S": "2",
+        "T": "14.6",
+        "V": "16000",
+        "W": "1",
+        "Pt": "F",
+        "Dp": "8.2",
+        "$": "540"
+      }
+    }
+  },
+  {
+    "i": "3522",
+    "lat": "52.083",
+    "lon": "-2.8",
+    "name": "HEREFORD",
+    "country": "ENGLAND",
+    "continent": "EUROPE",
+    "elevation": "75.0",
+    "Period": {
+      "type": "Day",
+      "value": "2019-04-21Z",
+      "Rep": {
+        "D": "NE",
+        "H": "69.2",
+        "P": "1022",
+        "S": "1",
+        "T": "14.4",
+        "V": "11000",
+        "W": "1",
+        "Pt": "F",
+        "Dp": "8.9",
+        "$": "540"
+      }
+    }
+  },
+  {
+    "i": "3529",
+    "lat": "52.148",
+    "lon": "-2.04",
+    "name": "PERSHORE",
+    "country": "ENGLAND",
+    "continent": "EUROPE",
+    "elevation": "35.0",
+    "Period": {
+      "type": "Day",
+      "value": "2019-04-21Z",
+      "Rep": {
+        "D": "NW",
+        "H": "70.0",
+        "P": "1022",
+        "S": "2",
+        "T": "16.0",
+        "V": "10000",
+        "W": "1",
+        "Pt": "F",
+        "Dp": "10.6",
+        "$": "540"
+      }
+    }
+  },
+  {
+    "i": "3535",
+    "lat": "52.48",
+    "lon": "-1.689",
+    "name": "COLESHILL",
+    "country": "ENGLAND",
+    "continent": "EUROPE",
+    "elevation": "96.0",
+    "Period": {
+      "type": "Day",
+      "value": "2019-04-21Z",
+      "Rep": {
+        "D": "S",
+        "H": "51.9",
+        "P": "1022",
+        "S": "3",
+        "T": "16.6",
+        "V": "26000",
+        "W": "1",
+        "Pt": "F",
+        "Dp": "6.8",
+        "$": "540"
+      }
+    }
+  },
+  {
+    "i": "3544",
+    "lat": "52.358",
+    "lon": "-1.33",
+    "name": "CHURCH LAWFORD",
+    "country": "ENGLAND",
+    "continent": "EUROPE",
+    "elevation": "107.0",
+    "Period": {
+      "type": "Day",
+      "value": "2019-04-21Z",
+      "Rep": {
+        "D": "ENE",
+        "H": "52.9",
+        "P": "1022",
+        "S": "2",
+        "T": "17.7",
+        "V": "12000",
+        "W": "1",
+        "Pt": "F",
+        "Dp": "8.1",
+        "$": "540"
+      }
+    }
+  },
+  {
+    "i": "3560",
+    "lat": "52.225",
+    "lon": "-0.464",
+    "name": "BEDFORD",
+    "country": "ENGLAND",
+    "continent": "EUROPE",
+    "elevation": "85.0",
+    "Period": {
+      "type": "Day",
+      "value": "2019-04-21Z",
+      "Rep": {
+        "D": "NNE",
+        "H": "61.1",
+        "P": "1022",
+        "S": "5",
+        "T": "14.4",
+        "V": "12000",
+        "W": "1",
+        "Pt": "F",
+        "Dp": "7.1",
+        "$": "540"
+      }
+    }
+  },
+  {
+    "i": "3590",
+    "lat": "52.123",
+    "lon": "0.961",
+    "name": "WATTISHAM",
+    "country": "ENGLAND",
+    "continent": "EUROPE",
+    "elevation": "89.0",
+    "Period": {
+      "type": "Day",
+      "value": "2019-04-21Z",
+      "Rep": {
+        "D": "ESE",
+        "H": "56.7",
+        "P": "1022",
+        "S": "6",
+        "T": "16.2",
+        "V": "16000",
+        "W": "1",
+        "Pt": "F",
+        "Dp": "7.7",
+        "$": "540"
+      }
+    }
+  },
+  {
+    "i": "3604",
+    "lat": "51.708",
+    "lon": "-5.055",
+    "name": "MILFORD HAVEN C.B.",
+    "country": "WALES",
+    "continent": "EUROPE",
+    "elevation": "44.0",
+    "Period": {
+      "type": "Day",
+      "value": "2019-04-21Z",
+      "Rep": {
+        "D": "ESE",
+        "H": "60.4",
+        "P": "1021",
+        "S": "9",
+        "T": "14.9",
+        "V": "20000",
+        "W": "1",
+        "Pt": "F",
+        "Dp": "7.4",
+        "$": "540"
+      }
+    }
+  },
+  {
+    "i": "3605",
+    "lat": "51.713",
+    "lon": "-4.368",
+    "name": "PEMBREY SANDS",
+    "country": "WALES",
+    "continent": "EUROPE",
+    "elevation": "3.0",
+    "Period": {
+      "type": "Day",
+      "value": "2019-04-21Z",
+      "Rep": {
+        "D": "WNW",
+        "H": "67.7",
+        "P": "1021",
+        "S": "3",
+        "T": "13.9",
+        "V": "6000",
+        "W": "1",
+        "Pt": "F",
+        "Dp": "8.1",
+        "$": "540"
+      }
+    }
+  },
+  {
+    "i": "3609",
+    "lat": "51.565",
+    "lon": "-3.981",
+    "name": "MUMBLES HEAD",
+    "country": "WALES",
+    "continent": "EUROPE",
+    "elevation": "32.0",
+    "Period": {
+      "type": "Day",
+      "value": "2019-04-21Z",
+      "Rep": {
+        "D": "ENE",
+        "H": "55.7",
+        "P": "1022",
+        "S": "3",
+        "T": "15.5",
+        "Pt": "F",
+        "Dp": "6.8",
+        "$": "540"
+      }
+    }
+  },
+  {
+    "i": "3647",
+    "lat": "51.86",
+    "lon": "-1.692",
+    "name": "LITTLE RISSINGTON (ESAWS)",
+    "country": "ENGLAND",
+    "continent": "EUROPE",
+    "elevation": "210.0",
+    "Period": {
+      "type": "Day",
+      "value": "2019-04-21Z",
+      "Rep": {
+        "D": "NE",
+        "H": "45.9",
+        "P": "1021",
+        "S": "3",
+        "T": "17.2",
+        "V": "22000",
+        "W": "1",
+        "Pt": "F",
+        "Dp": "5.6",
+        "$": "540"
+      }
+    }
+  },
+  {
+    "i": "3649",
+    "lat": "51.758",
+    "lon": "-1.576",
+    "name": "BRIZE NORTON",
+    "country": "ENGLAND",
+    "continent": "EUROPE",
+    "elevation": "81.0",
+    "Period": {
+      "type": "Day",
+      "value": "2019-04-21Z",
+      "Rep": {
+        "D": "E",
+        "H": "54.1",
+        "P": "1022",
+        "S": "3",
+        "T": "16.8",
+        "V": "12000",
+        "W": "1",
+        "Pt": "F",
+        "Dp": "7.6",
+        "$": "540"
+      }
+    }
+  },
+  {
+    "i": "3658",
+    "lat": "51.62",
+    "lon": "-1.097",
+    "name": "BENSON",
+    "country": "ENGLAND",
+    "continent": "EUROPE",
+    "elevation": "57.0",
+    "Period": {
+      "type": "Day",
+      "value": "2019-04-21Z",
+      "Rep": {
+        "D": "NNW",
+        "H": "67.8",
+        "P": "1022",
+        "S": "3",
+        "T": "14.2",
+        "V": "10000",
+        "W": "1",
+        "Pt": "F",
+        "Dp": "8.4",
+        "$": "540"
+      }
+    }
+  },
+  {
+    "i": "3660",
+    "lat": "51.68",
+    "lon": "-0.802",
+    "name": "HIGH WYCOMBE",
+    "country": "ENGLAND",
+    "continent": "EUROPE",
+    "elevation": "204.0",
+    "Period": {
+      "type": "Day",
+      "value": "2019-04-21Z",
+      "Rep": {
+        "D": "NE",
+        "H": "44.1",
+        "P": "1022",
+        "S": "6",
+        "T": "17.7",
+        "V": "28000",
+        "W": "1",
+        "Pt": "F",
+        "Dp": "5.5",
+        "$": "540"
+      }
+    }
+  },
+  {
+    "i": "3672",
+    "lat": "51.548",
+    "lon": "-0.415",
+    "name": "NORTHOLT",
+    "country": "ENGLAND",
+    "continent": "EUROPE",
+    "elevation": "40.0",
+    "Period": {
+      "type": "Day",
+      "value": "2019-04-21Z",
+      "Rep": {
+        "D": "NNE",
+        "H": "53.9",
+        "P": "1022",
+        "S": "5",
+        "T": "16.0",
+        "V": "20000",
+        "W": "1",
+        "Pt": "F",
+        "Dp": "6.8",
+        "$": "540"
+      }
+    }
+  },
+  {
+    "i": "3680",
+    "lat": "51.8067",
+    "lon": "-0.3602",
+    "name": "ROTHAMSTED",
+    "country": "ENGLAND",
+    "continent": "EUROPE",
+    "elevation": "128.0",
+    "Period": {
+      "type": "Day",
+      "value": "2019-04-21Z",
+      "Rep": {
+        "H": "55.5",
+        "P": "1022",
+        "T": "16.3",
+        "Pt": "F",
+        "Dp": "7.5",
+        "$": "540"
+      }
+    }
+  },
+  {
+    "i": "3684",
+    "lat": "51.896",
+    "lon": "0.453",
+    "name": "ANDREWSFIELD",
+    "country": "ENGLAND",
+    "continent": "EUROPE",
+    "elevation": "87.0",
+    "Period": {
+      "type": "Day",
+      "value": "2019-04-21Z",
+      "Rep": {
+        "D": "E",
+        "H": "62.3",
+        "P": "1022",
+        "S": "3",
+        "T": "15.8",
+        "V": "13000",
+        "W": "1",
+        "Pt": "F",
+        "Dp": "8.7",
+        "$": "540"
+      }
+    }
+  },
+  {
+    "i": "3693",
+    "lat": "51.554",
+    "lon": "0.83",
+    "name": "SHOEBURYNESS",
+    "country": "ENGLAND",
+    "continent": "EUROPE",
+    "elevation": "2.0",
+    "Period": {
+      "type": "Day",
+      "value": "2019-04-21Z",
+      "Rep": {
+        "D": "ENE",
+        "H": "69.3",
+        "P": "1022",
+        "S": "6",
+        "T": "14.8",
+        "V": "10000",
+        "W": "1",
+        "Pt": "F",
+        "Dp": "9.3",
+        "$": "540"
+      }
+    }
+  },
+  {
+    "i": "3707",
+    "lat": "51.089",
+    "lon": "-4.149",
+    "name": "CHIVENOR",
+    "country": "ENGLAND",
+    "continent": "EUROPE",
+    "elevation": "6.0",
+    "Period": {
+      "type": "Day",
+      "value": "2019-04-21Z",
+      "Rep": {
+        "D": "ENE",
+        "H": "60.8",
+        "P": "1021",
+        "S": "5",
+        "T": "16.6",
+        "V": "15000",
+        "W": "1",
+        "Pt": "F",
+        "Dp": "9.1",
+        "$": "540"
+      }
+    }
+  },
+  {
+    "i": "3710",
+    "lat": "51.087",
+    "lon": "-3.608",
+    "name": "LISCOMBE",
+    "country": "ENGLAND",
+    "continent": "EUROPE",
+    "elevation": "348.0",
+    "Period": {
+      "type": "Day",
+      "value": "2019-04-21Z",
+      "Rep": {
+        "D": "S",
+        "H": "46.3",
+        "P": "1021",
+        "S": "2",
+        "T": "17.5",
+        "V": "22000",
+        "W": "1",
+        "Pt": "F",
+        "Dp": "6.0",
+        "$": "540"
+      }
+    }
+  },
+  {
+    "i": "3716",
+    "lat": "51.405",
+    "lon": "-3.44",
+    "name": "ST-ATHAN",
+    "country": "WALES",
+    "continent": "EUROPE",
+    "elevation": "49.0",
+    "Period": {
+      "type": "Day",
+      "value": "2019-04-21Z",
+      "Rep": {
+        "D": "E",
+        "H": "60.7",
+        "P": "1021",
+        "S": "7",
+        "T": "16.0",
+        "V": "16000",
+        "W": "1",
+        "Pt": "F",
+        "Dp": "8.5",
+        "$": "540"
+      }
+    }
+  },
+  {
+    "i": "3740",
+    "lat": "51.5031",
+    "lon": "-1.9924",
+    "name": "LYNEHAM",
+    "country": "ENGLAND",
+    "continent": "EUROPE",
+    "elevation": "145.0",
+    "Period": {
+      "type": "Day",
+      "value": "2019-04-21Z",
+      "Rep": {
+        "D": "NNE",
+        "H": "59.5",
+        "P": "1022",
+        "S": "2",
+        "T": "16.1",
+        "W": "1",
+        "Pt": "F",
+        "Dp": "8.3",
+        "$": "540"
+      }
+    }
+  },
+  {
+    "i": "3743",
+    "lat": "51.201",
+    "lon": "-1.805",
+    "name": "LARKHILL",
+    "country": "ENGLAND",
+    "continent": "EUROPE",
+    "elevation": "132.0",
+    "Period": {
+      "type": "Day",
+      "value": "2019-04-21Z",
+      "Rep": {
+        "D": "NE",
+        "H": "52.0",
+        "P": "1021",
+        "S": "5",
+        "T": "16.9",
+        "V": "15000",
+        "W": "1",
+        "Pt": "F",
+        "Dp": "7.1",
+        "$": "540"
+      }
+    }
+  },
+  {
+    "i": "3746",
+    "lat": "51.161",
+    "lon": "-1.754",
+    "name": "BOSCOMBE DOWN",
+    "country": "ENGLAND",
+    "continent": "EUROPE",
+    "elevation": "126.0",
+    "Period": {
+      "type": "Day",
+      "value": "2019-04-21Z",
+      "Rep": {
+        "D": "N",
+        "H": "56.0",
+        "P": "1022",
+        "S": "2",
+        "T": "16.5",
+        "V": "22000",
+        "W": "1",
+        "Pt": "F",
+        "Dp": "7.8",
+        "$": "540"
+      }
+    }
+  },
+  {
+    "i": "3749",
+    "lat": "51.149",
+    "lon": "-1.57",
+    "name": "MIDDLE WALLOP",
+    "country": "ENGLAND",
+    "continent": "EUROPE",
+    "elevation": "91.0",
+    "Period": {
+      "type": "Day",
+      "value": "2019-04-21Z",
+      "Rep": {
+        "D": "NE",
+        "H": "46.4",
+        "P": "1021",
+        "S": "6",
+        "T": "18.0",
+        "V": "15000",
+        "W": "1",
+        "Pt": "F",
+        "Dp": "6.5",
+        "$": "540"
+      }
+    }
+  },
+  {
+    "i": "3761",
+    "lat": "51.238",
+    "lon": "-0.944",
+    "name": "ODIHAM",
+    "country": "ENGLAND",
+    "continent": "EUROPE",
+    "elevation": "118.0",
+    "Period": {
+      "type": "Day",
+      "value": "2019-04-21Z",
+      "Rep": {
+        "D": "N",
+        "H": "61.6",
+        "P": "1022",
+        "S": "3",
+        "T": "14.6",
+        "V": "10000",
+        "W": "1",
+        "Pt": "F",
+        "Dp": "7.4",
+        "$": "540"
+      }
+    }
+  },
+  {
+    "i": "3768",
+    "lat": "51.279",
+    "lon": "-0.772",
+    "name": "FARNBOROUGH",
+    "country": "ENGLAND",
+    "continent": "EUROPE",
+    "elevation": "72.0",
+    "Period": {
+      "type": "Day",
+      "value": "2019-04-21Z",
+      "Rep": {
+        "D": "S",
+        "H": "55.2",
+        "P": "1021",
+        "S": "1",
+        "T": "16.5",
+        "V": "15000",
+        "W": "1",
+        "Pt": "F",
+        "Dp": "7.6",
+        "$": "540"
+      }
+    }
+  },
+  {
+    "i": "3769",
+    "lat": "51.15",
+    "lon": "-0.2333",
+    "name": "CHARLWOOD",
+    "country": "ENGLAND",
+    "continent": "EUROPE",
+    "elevation": "67.0",
+    "Period": {
+      "type": "Day",
+      "value": "2019-04-21Z",
+      "Rep": {
+        "D": "ENE",
+        "H": "57.2",
+        "P": "1021",
+        "S": "3",
+        "T": "16.8",
+        "V": "16000",
+        "W": "1",
+        "Pt": "F",
+        "Dp": "8.4",
+        "$": "540"
+      }
+    }
+  },
+  {
+    "i": "3772",
+    "lat": "51.479",
+    "lon": "-0.449",
+    "name": "HEATHROW",
+    "country": "ENGLAND",
+    "continent": "EUROPE",
+    "elevation": "25.0",
+    "Period": {
+      "type": "Day",
+      "value": "2019-04-21Z",
+      "Rep": {
+        "D": "NE",
+        "H": "55.1",
+        "P": "1022",
+        "S": "3",
+        "T": "16.2",
+        "V": "14000",
+        "W": "1",
+        "Pt": "F",
+        "Dp": "7.3",
+        "$": "540"
+      }
+    }
+  },
+  {
+    "i": "3781",
+    "lat": "51.303",
+    "lon": "-0.09",
+    "name": "KENLEY",
+    "country": "ENGLAND",
+    "continent": "EUROPE",
+    "elevation": "170.0",
+    "Period": {
+      "type": "Day",
+      "value": "2019-04-21Z",
+      "Rep": {
+        "D": "NE",
+        "H": "59.0",
+        "P": "1022",
+        "S": "5",
+        "T": "15.9",
+        "V": "14000",
+        "W": "1",
+        "Pt": "F",
+        "Dp": "8.0",
+        "$": "540"
+      }
+    }
+  },
+  {
+    "i": "3796",
+    "lat": "51.133",
+    "lon": "1.348",
+    "name": "LANGDON BAY",
+    "country": "ENGLAND",
+    "continent": "EUROPE",
+    "elevation": "117.0",
+    "Period": {
+      "type": "Day",
+      "value": "2019-04-21Z",
+      "Rep": {
+        "D": "NNE",
+        "H": "59.2",
+        "P": "1021",
+        "S": "10",
+        "T": "16.8",
+        "Pt": "F",
+        "Dp": "8.9",
+        "$": "540"
+      }
+    }
+  },
+  {
+    "i": "3797",
+    "lat": "51.3422",
+    "lon": "1.3461",
+    "name": "MANSTON",
+    "country": "ENGLAND",
+    "continent": "EUROPE",
+    "elevation": "54.0",
+    "Period": {
+      "type": "Day",
+      "value": "2019-04-21Z",
+      "Rep": {
+        "D": "E",
+        "H": "48.6",
+        "P": "1022",
+        "S": "5",
+        "T": "16.6",
+        "V": "12000",
+        "W": "1",
+        "Pt": "F",
+        "Dp": "5.9",
+        "$": "540"
+      }
+    }
+  },
+  {
+    "i": "3803",
+    "lat": "49.913",
+    "lon": "-6.301",
+    "name": "SCILLY ST MARYS",
+    "country": "ENGLAND",
+    "continent": "EUROPE",
+    "elevation": "31.0",
+    "Period": {
+      "type": "Day",
+      "value": "2019-04-21Z",
+      "Rep": {
+        "D": "E",
+        "H": "56.9",
+        "P": "1021",
+        "S": "8",
+        "T": "15.5",
+        "V": "20000",
+        "W": "1",
+        "Pt": "F",
+        "Dp": "7.1",
+        "$": "540"
+      }
+    }
+  },
+  {
+    "i": "3808",
+    "lat": "50.218",
+    "lon": "-5.33",
+    "name": "CAMBORNE",
+    "country": "ENGLAND",
+    "continent": "EUROPE",
+    "elevation": "87.0",
+    "Period": {
+      "type": "Day",
+      "value": "2019-04-21Z",
+      "Rep": {
+        "D": "ESE",
+        "H": "41.2",
+        "P": "1021",
+        "S": "6",
+        "T": "19.0",
+        "V": "30000",
+        "W": "1",
+        "Pt": "F",
+        "Dp": "5.7",
+        "$": "540"
+      }
+    }
+  },
+  {
+    "i": "3809",
+    "lat": "50.085",
+    "lon": "-5.257",
+    "name": "CULDROSE",
+    "country": "ENGLAND",
+    "continent": "EUROPE",
+    "elevation": "78.0",
+    "Period": {
+      "type": "Day",
+      "value": "2019-04-21Z",
+      "Rep": {
+        "D": "ENE",
+        "H": "55.7",
+        "P": "1021",
+        "S": "8",
+        "T": "16.7",
+        "V": "19000",
+        "W": "1",
+        "Pt": "F",
+        "Dp": "7.9",
+        "$": "540"
+      }
+    }
+  },
+  {
+    "i": "3823",
+    "lat": "50.502",
+    "lon": "-4.667",
+    "name": "CARDINHAM",
+    "country": "ENGLAND",
+    "continent": "EUROPE",
+    "elevation": "200.0",
+    "Period": {
+      "type": "Day",
+      "value": "2019-04-21Z",
+      "Rep": {
+        "D": "SE",
+        "H": "46.2",
+        "P": "1021",
+        "S": "7",
+        "T": "18.0",
+        "V": "22000",
+        "W": "1",
+        "Pt": "F",
+        "Dp": "6.4",
+        "$": "540"
+      }
+    }
+  },
+  {
+    "i": "3827",
+    "lat": "50.354",
+    "lon": "-4.121",
+    "name": "MOUNT BATTEN",
+    "country": "ENGLAND",
+    "continent": "EUROPE",
+    "elevation": "50.0",
+    "Period": {
+      "type": "Day",
+      "value": "2019-04-21Z",
+      "Rep": {
+        "D": "NW",
+        "H": "64.1",
+        "P": "1021",
+        "S": "2",
+        "T": "15.9",
+        "V": "11000",
+        "W": "1",
+        "Pt": "F",
+        "Dp": "9.2",
+        "$": "540"
+      }
+    }
+  },
+  {
+    "i": "3840",
+    "lat": "50.86",
+    "lon": "-3.239",
+    "name": "DUNKESWELL AERODROME",
+    "country": "ENGLAND",
+    "continent": "EUROPE",
+    "elevation": "252.0",
+    "Period": {
+      "type": "Day",
+      "value": "2019-04-21Z",
+      "Rep": {
+        "D": "SE",
+        "H": "33.4",
+        "P": "1021",
+        "S": "3",
+        "T": "18.9",
+        "V": "18000",
+        "W": "1",
+        "Pt": "F",
+        "Dp": "2.7",
+        "$": "540"
+      }
+    }
+  },
+  {
+    "i": "3844",
+    "lat": "50.7366",
+    "lon": "-3.40458",
+    "name": "EXETER AIRPORT 2",
+    "country": "ENGLAND",
+    "continent": "EUROPE",
+    "elevation": "27.0",
+    "Period": {
+      "type": "Day",
+      "value": "2019-04-21Z",
+      "Rep": {
+        "D": "NW",
+        "H": "73.4",
+        "P": "1021",
+        "S": "1",
+        "T": "15.7",
+        "V": "13000",
+        "W": "1",
+        "Pt": "F",
+        "Dp": "11.0",
+        "$": "540"
+      }
+    }
+  },
+  {
+    "i": "3853",
+    "lat": "51.006",
+    "lon": "-2.64",
+    "name": "YEOVILTON",
+    "country": "ENGLAND",
+    "continent": "EUROPE",
+    "elevation": "20.0",
+    "Period": {
+      "type": "Day",
+      "value": "2019-04-21Z",
+      "Rep": {
+        "D": "WNW",
+        "H": "68.1",
+        "P": "1022",
+        "S": "1",
+        "T": "15.5",
+        "V": "23000",
+        "W": "1",
+        "Pt": "F",
+        "Dp": "9.7",
+        "$": "540"
+      }
+    }
+  },
+  {
+    "i": "3857",
+    "lat": "50.522",
+    "lon": "-2.454",
+    "name": "ISLE OF PORTLAND",
+    "country": "ENGLAND",
+    "continent": "EUROPE",
+    "elevation": "52.0",
+    "Period": {
+      "type": "Day",
+      "value": "2019-04-21Z",
+      "Rep": {
+        "D": "NE",
+        "H": "45.5",
+        "P": "1021",
+        "S": "11",
+        "T": "18.3",
+        "V": "30000",
+        "W": "1",
+        "Pt": "F",
+        "Dp": "6.5",
+        "$": "540"
+      }
+    }
+  },
+  {
+    "i": "3862",
+    "lat": "50.779",
+    "lon": "-1.835",
+    "name": "BOURNEMOUTH AIRPORT",
+    "country": "ENGLAND",
+    "continent": "EUROPE",
+    "elevation": "10.0",
+    "Period": {
+      "type": "Day",
+      "value": "2019-04-21Z",
+      "Rep": {
+        "D": "NE",
+        "H": "46.5",
+        "P": "1021",
+        "S": "6",
+        "T": "18.2",
+        "V": "17000",
+        "W": "1",
+        "Pt": "F",
+        "Dp": "6.7",
+        "$": "540"
+      }
+    }
+  },
+  {
+    "i": "3866",
+    "lat": "50.577",
+    "lon": "-1.297",
+    "name": "ST CATHERINES PT.",
+    "country": "ENGLAND",
+    "continent": "EUROPE",
+    "elevation": "16.0",
+    "Period": {
+      "type": "Day",
+      "value": "2019-04-21Z",
+      "Rep": {
+        "D": "NNE",
+        "H": "49.3",
+        "P": "1020",
+        "S": "14",
+        "T": "17.4",
+        "Pt": "F",
+        "Dp": "6.8",
+        "$": "540"
+      }
+    }
+  },
+  {
+    "i": "3872",
+    "lat": "50.815",
+    "lon": "-0.923",
+    "name": "THORNEY ISLAND",
+    "country": "ENGLAND",
+    "continent": "EUROPE",
+    "elevation": "4.0",
+    "Period": {
+      "type": "Day",
+      "value": "2019-04-21Z",
+      "Rep": {
+        "D": "NNE",
+        "H": "50.3",
+        "P": "1021",
+        "S": "8",
+        "T": "18.5",
+        "V": "19000",
+        "W": "1",
+        "Pt": "F",
+        "Dp": "8.1",
+        "$": "540"
+      }
+    }
+  },
+  {
+    "i": "3876",
+    "lat": "50.836",
+    "lon": "-0.292",
+    "name": "SHOREHAM",
+    "country": "ENGLAND",
+    "continent": "EUROPE",
+    "elevation": "13.0",
+    "Period": {
+      "type": "Day",
+      "value": "2019-04-21Z",
+      "Rep": {
+        "D": "N",
+        "H": "63.8",
+        "P": "1021",
+        "S": "14",
+        "T": "14.8",
+        "Pt": "F",
+        "Dp": "8.1",
+        "$": "540"
+      }
+    }
+  },
+  {
+    "i": "3882",
+    "lat": "50.89",
+    "lon": "0.319",
+    "name": "HERSTMONCEUX WEST END",
+    "country": "ENGLAND",
+    "continent": "EUROPE",
+    "elevation": "52.0",
+    "Period": {
+      "type": "Day",
+      "value": "2019-04-21Z",
+      "Rep": {
+        "D": "ENE",
+        "H": "50.1",
+        "P": "1021",
+        "S": "6",
+        "T": "17.9",
+        "V": "13000",
+        "W": "1",
+        "Pt": "F",
+        "Dp": "7.5",
+        "$": "540"
+      }
+    }
+  },
+  {
+    "i": "3894",
+    "lat": "49.44",
+    "lon": "-2.6",
+    "name": "GUERNSEY",
+    "country": "CHANNEL ISLANDS",
+    "continent": "EUROPE",
+    "elevation": "101.0",
+    "Period": {
+      "type": "Day",
+      "value": "2019-04-21Z",
+      "Rep": {
+        "D": "ENE",
+        "H": "44.1",
+        "P": "1020",
+        "S": "9",
+        "T": "16.6",
+        "V": "18000",
+        "W": "1",
+        "Pt": "F",
+        "Dp": "4.5",
+        "$": "540"
+      }
+    }
+  },
+  {
+    "i": "3895",
+    "lat": "49.2079",
+    "lon": "-2.1955",
+    "name": "JERSEY",
+    "country": "CHANNEL ISLANDS",
+    "continent": "EUROPE",
+    "elevation": "84.0",
+    "Period": {
+      "type": "Day",
+      "value": "2019-04-21Z",
+      "Rep": {
+        "D": "NNE",
+        "H": "52.9",
+        "P": "1020",
+        "S": "13",
+        "T": "16.4",
+        "V": "14000",
+        "W": "1",
+        "Pt": "F",
+        "Dp": "6.9",
+        "$": "540"
+      }
+    }
+  },
+  {
+    "i": "3904",
+    "lat": "54.707",
+    "lon": "-7.577",
+    "name": "CASTLEDERG",
+    "country": "NORTHERN IRELAND",
+    "continent": "EUROPE",
+    "elevation": "49.0",
+    "Period": {
+      "type": "Day",
+      "value": "2019-04-21Z",
+      "Rep": {
+        "D": "WSW",
+        "H": "85.8",
+        "P": "1017",
+        "S": "7",
+        "T": "13.0",
+        "V": "23000",
+        "W": "8",
+        "Pt": "F",
+        "Dp": "10.7",
+        "$": "540"
+      }
+    }
+  },
+  {
+    "i": "3907",
+    "lat": "55.1604",
+    "lon": "-6.9492",
+    "name": "MAGILLIGAN",
+    "country": "NORTHERN IRELAND",
+    "continent": "EUROPE",
+    "elevation": "6.0",
+    "Period": {
+      "type": "Day",
+      "value": "2019-04-21Z",
+      "Rep": {
+        "D": "WSW",
+        "H": "84.1",
+        "P": "1017",
+        "S": "3",
+        "T": "12.7",
+        "V": "14000",
+        "W": "7",
+        "Pt": "F",
+        "Dp": "10.1",
+        "$": "540"
+      }
+    }
+  },
+  {
+    "i": "3911",
+    "lat": "54.721",
+    "lon": "-6.814",
+    "name": "LOUGH FEA",
+    "country": "NORTHERN IRELAND",
+    "continent": "EUROPE",
+    "elevation": "225.0",
+    "Period": {
+      "type": "Day",
+      "value": "2019-04-21Z",
+      "Rep": {
+        "D": "SSE",
+        "H": "88.1",
+        "P": "1018",
+        "S": "7",
+        "T": "12.7",
+        "V": "7000",
+        "W": "1",
+        "Pt": "F",
+        "Dp": "10.8",
+        "$": "540"
+      }
+    }
+  },
+  {
+    "i": "3916",
+    "lat": "55.181",
+    "lon": "-6.153",
+    "name": "BALLYPATRICK FOREST",
+    "country": "NORTHERN IRELAND",
+    "continent": "EUROPE",
+    "elevation": "156.0",
+    "Period": {
+      "type": "Day",
+      "value": "2019-04-21Z",
+      "Rep": {
+        "D": "SW",
+        "H": "75.9",
+        "P": "1018",
+        "S": "10",
+        "T": "16.0",
+        "V": "14000",
+        "W": "1",
+        "Pt": "F",
+        "Dp": "11.8",
+        "$": "540"
+      }
+    }
+  },
+  {
+    "i": "3917",
+    "lat": "54.664",
+    "lon": "-6.224",
+    "name": "BELFAST INTERNATIONAL AIRPORT",
+    "country": "NORTHERN IRELAND",
+    "continent": "EUROPE",
+    "elevation": "63.0",
+    "Period": {
+      "type": "Day",
+      "value": "2019-04-21Z",
+      "Rep": {
+        "D": "S",
+        "H": "78.9",
+        "P": "1018",
+        "S": "7",
+        "T": "14.8",
+        "V": "8000",
+        "W": "1",
+        "Pt": "F",
+        "Dp": "11.2",
+        "$": "540"
+      }
+    }
+  },
+  {
+    "i": "3923",
+    "lat": "54.237",
+    "lon": "-6.502",
+    "name": "GLENANNE",
+    "country": "NORTHERN IRELAND",
+    "continent": "EUROPE",
+    "elevation": "161.0",
+    "Period": {
+      "type": "Day",
+      "value": "2019-04-21Z",
+      "Rep": {
+        "D": "SW",
+        "H": "89.4",
+        "P": "1018",
+        "S": "10",
+        "T": "12.9",
+        "V": "5000",
+        "W": "7",
+        "Pt": "F",
+        "Dp": "11.2",
+        "$": "540"
+      }
+    }
+  },
+  {
+    "i": "3952",
+    "lat": "51.799",
+    "lon": "-8.25",
+    "name": "ROCHES POINT",
+    "country": "IRELAND",
+    "continent": "EUROPE",
+    "elevation": "40.0",
+    "Period": {
+      "type": "Day",
+      "value": "2019-04-21Z",
+      "Rep": {
+        "D": "SSW",
+        "H": "98.7",
+        "P": "1020",
+        "S": "4",
+        "T": "9.8",
+        "V": "8000",
+        "W": "5",
+        "Pt": "F",
+        "Dp": "9.6",
+        "$": "540"
+      }
+    }
+  },
+  {
+    "i": "3953",
+    "lat": "51.933",
+    "lon": "-10.25",
+    "name": "VALENTIA OBSERVATORY",
+    "country": "IRELAND",
+    "continent": "EUROPE",
+    "elevation": "25.0",
+    "Period": {
+      "type": "Day",
+      "value": "2019-04-21Z",
+      "Rep": {
+        "D": "S",
+        "H": "94.8",
+        "P": "1019",
+        "S": "11",
+        "T": "11.3",
+        "V": "5000",
+        "W": "5",
+        "Pt": "F",
+        "Dp": "10.5",
+        "$": "540"
+      }
+    }
+  },
+  {
+    "i": "3976",
+    "lat": "54.233",
+    "lon": "-10.001",
+    "name": "BELMULLET",
+    "country": "IRELAND",
+    "continent": "EUROPE",
+    "elevation": "9.0",
+    "Period": {
+      "type": "Day",
+      "value": "2019-04-21Z",
+      "Rep": {
+        "D": "S",
+        "H": "98.0",
+        "P": "1016",
+        "S": "20",
+        "T": "11.4",
+        "V": "2700",
+        "W": "5",
+        "Pt": "F",
+        "Dp": "11.1",
+        "$": "540"
+      }
+    }
+  },
+  {
+    "i": "3980",
+    "lat": "55.366",
+    "lon": "-7.333",
+    "name": "MALIN HEAD",
+    "country": "IRELAND",
+    "continent": "EUROPE",
+    "elevation": "20.0",
+    "Period": {
+      "type": "Day",
+      "value": "2019-04-21Z",
+      "Rep": {
+        "D": "SSW",
+        "H": "83.2",
+        "P": "1016",
+        "S": "13",
+        "T": "14.3",
+        "V": "18000",
+        "W": "7",
+        "Pt": "F",
+        "Dp": "11.5",
+        "$": "540"
+      }
+    }
+  },
+  {
+    "i": "99057",
+    "lat": "52.017",
+    "lon": "-0.6",
+    "name": "WOBURN",
+    "country": "ENGLAND",
+    "continent": "EUROPE",
+    "elevation": "89.0",
+    "Period": {
+      "type": "Day",
+      "value": "2019-04-21Z",
+      "Rep": {
+        "H": "67.6",
+        "T": "14.4",
+        "Dp": "8.5",
+        "$": "540"
+      }
+    }
+  },
+  {
+    "i": "99060",
+    "lat": "53.85",
+    "lon": "-2.467",
+    "name": "STONYHURST",
+    "country": "ENGLAND",
+    "continent": "EUROPE",
+    "elevation": "115.0",
+    "Period": {
+      "type": "Day",
+      "value": "2019-04-21Z",
+      "Rep": {
+        "H": "56.6",
+        "T": "17.3",
+        "Dp": "8.6",
+        "$": "540"
+      }
+    }
+  },
+  {
+    "i": "99081",
+    "lat": "50.767",
+    "lon": "-3.9",
+    "name": "NORTH WYKE",
+    "country": "ENGLAND",
+    "continent": "EUROPE",
+    "elevation": "177.0",
+    "Period": {
+      "type": "Day",
+      "value": "2019-04-21Z",
+      "Rep": {
+        "D": "E",
+        "H": "57.7",
+        "P": "1021",
+        "S": "3",
+        "T": "18.3",
+        "V": "16000",
+        "Pt": "F",
+        "Dp": "9.9",
+        "$": "540"
+      }
+    }
+  },
+  {
+    "i": "99142",
+    "lat": "54.273",
+    "lon": "-0.421",
+    "name": "SCARBOROUGH",
+    "country": "ENGLAND",
+    "continent": "EUROPE",
+    "elevation": "110.0",
+    "Period": {
+      "type": "Day",
+      "value": "2019-04-21Z",
+      "Rep": {
+        "H": "50.1",
+        "T": "16.1",
+        "Dp": "5.7",
+        "$": "540"
+      }
+    }
+  },
+  {
+    "i": "99223",
+    "lat": "51.55138",
+    "lon": "-2.55933",
+    "name": "ALMONDSBURY",
+    "country": "ENGLAND",
+    "continent": "EUROPE",
+    "elevation": "75.0",
+    "Period": {
+      "type": "Day",
+      "value": "2019-04-21Z",
+      "Rep": {
+        "D": "ESE",
+        "H": "48.8",
+        "P": "1022",
+        "S": "3",
+        "T": "16.9",
+        "V": "19000",
+        "Pt": "F",
+        "Dp": "6.2",
+        "$": "540"
+      }
+    }
+  }
+]

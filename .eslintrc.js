@@ -5,4 +5,7 @@ module.exports = {
         "node": true,
         "jasmine": true
       },
+      "rules": {
+        "arrow-parens": "always"
+      }
 };
